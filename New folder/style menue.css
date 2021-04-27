@@ -33,8 +33,28 @@
     left: 1150px;
         top: 150px;
 }
-/* #image8{
+#image8{
     position: absolute;
-    left: 150px;
+    left: 275px;
     top: 400px;
-} */
+}
+#image9{
+    position: absolute;
+    left: 450px;
+    top: 400px;
+}
+#image10{
+    position: absolute;
+    left: 625px;
+    top: 400px;
+}
+#image11{
+    position: absolute;
+    left: 800px;
+    top: 400px;
+}
+#image12{
+    position: absolute;
+    left: 975px;
+    top: 400px;
+}
