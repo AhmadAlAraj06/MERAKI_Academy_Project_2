@@ -58,4 +58,69 @@
     left: 975px;
     top: 425px;
 }
+#snack{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+#bread{
+    position: absolute;
+    left: 285px;
+    top: 300px;
+}
+#fruits{
+    position: absolute;
+    left: 465px;
+    top: 300px;
+}
+#chiken{
+    position: absolute;
+    left: 645px;
+    top: 300px;
+}
+#eggs{
+    position: absolute;
+    left: 817px;
+    top: 300px;
+}
+#milk{
+    position: absolute;
+    left: 1008px;
+    top: 300px;
+}
+#frozen{
+    position: absolute;
+    left: 1160px;
+    top: 300px;
+}
+#breakfast{
+    position: absolute;
+    left: 275px;
+    top: 560px;
+}
+#tea{
+    position: absolute;
+    left: 465px;
+    top: 560px;
+}
+#ice{
+    position: absolute;
+    left: 640px;
+    top: 560px;
+}
+#water{
+    position: absolute;
+    left: 825px;
+    top: 560px;
+}
+#cola{
+    position: absolute;
+    left: 993px;
+    top: 560px;
+}
+
+#Home{
+    position: absolute;
+    left: 1300px;
+}
 
