@@ -1,19 +1,4 @@
 
-#needs{
-    color: white;
-    padding-top: 50px;
-    padding-left: 50px;
-
-}
-.Cate{
-    color: white;
-    padding-left: 600px;
-}
-#yum{
-    color: white;
-    padding-left: 1200px;
-
-}
 #image1{
     position: absolute;
     left: 100px;
@@ -218,4 +203,56 @@
     position: absolute;
     left: 975px;
     top: 1525px;
+}
+
+#toffi{
+    position: absolute;
+    left: 104px;
+    top: 390px;
+}
+#tobl{
+    position: absolute;
+    left: 275px;
+    top: 390px;
+}
+#riter{
+    position: absolute;
+    left: 455px;
+    top: 390px;
+}
+#nutella{
+    position: absolute;
+    left: 638px;
+    top: 390px;
+}
+#no1{
+    position: absolute;
+    left: 795px;
+    top: 390px;
+}
+#nuttelab{
+    position: absolute;
+    left: 1000px;
+    top: 390px;
+}
+#rashen{
+    position: absolute;
+    left: 1160px;
+    top: 390px;
+}
+
+#needs{
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.Cate{
+    color: white;
+    padding-left: 543px;
+}
+#yum{
+    color: white;
+    padding-left: 1200px;
+
 }
