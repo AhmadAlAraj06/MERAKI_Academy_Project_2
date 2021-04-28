@@ -1,0 +1,86 @@
+
+#needs{
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.Cate{
+    color: white;
+    padding-left: 600px;
+}
+#yum{
+    color: white;
+    padding-left: 1200px;
+
+}
+#image1{
+    position: absolute;
+    left: 100px;
+    top: 275px;
+}
+#image2{
+    position: absolute;
+    left: 275px;
+    top: 275px;
+}
+#image3{
+    position: absolute;
+    left: 450px;
+    top: 275px;
+}
+#image4{
+    position: absolute;
+    left: 625px;
+    top: 275px;
+}
+#image5{
+    position: absolute;
+    left: 800px;
+    top: 275px;
+}
+#image6{
+    position: absolute;
+    left: 975px;
+    top: 275px;
+}
+#image7{
+    position: absolute;
+    left: 1150px;
+    top: 275px;
+}
+#image8{
+    position: absolute;
+    left: 100px;
+    top: 500px;
+}
+#image9{
+    position: absolute;
+    left: 275px;
+    top: 500px;
+}
+#image10{
+    position: absolute;
+    left: 450px;
+    top: 500px;
+}
+#image11{
+    position: absolute;
+    left: 625px;
+    top: 500px;
+}
+#image12{
+    position: absolute;
+    left: 800px;
+    top: 500px;
+}
+#image13{
+    position: absolute;
+    left: 975px;
+    top: 500px;
+}
+#image14{
+    position: absolute;
+    left: 1150px;
+    top: 500px;
+}
