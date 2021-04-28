@@ -1,60 +1,61 @@
 #image1{
     position: absolute;
     left: 100px;
-        top: 150px;
+    top: 175px;
 }
 #image2{
     position: absolute;
     left: 275px;
-        top: 150px;
+    top: 175px;
 }
 #image3{
     position: absolute;
     left: 450px;
-        top: 150px;
+    top: 175px;
 }
 #image4{
     position: absolute;
     left: 625px;
-        top: 150px;
+    top: 175px;
 }
 #image5{
     position: absolute;
     left: 800px;
-        top: 150px;
+    top: 175px;
 }
 #image6{
     position: absolute;
     left: 975px;
-        top: 150px;
+    top: 175px;
 }
 #image7{
     position: absolute;
     left: 1150px;
-        top: 150px;
+    top: 175px;
 }
 #image8{
     position: absolute;
     left: 275px;
-    top: 400px;
+    top: 425px;
 }
 #image9{
     position: absolute;
     left: 450px;
-    top: 400px;
+    top: 425px;
 }
 #image10{
     position: absolute;
     left: 625px;
-    top: 400px;
+    top: 425px;
 }
 #image11{
     position: absolute;
     left: 800px;
-    top: 400px;
+    top: 425px;
 }
 #image12{
     position: absolute;
     left: 975px;
-    top: 400px;
+    top: 425px;
 }
+
