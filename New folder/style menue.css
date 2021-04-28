@@ -118,7 +118,19 @@
     left: 993px;
     top: 560px;
 }
+#needs{
+    color: white;
+    padding-top: 50px;
+}
+.Cate{
+    color: white;
+    padding-left: 600px;
+}
+#yum{
+    color: white;
+    padding-left: 1000px;
 
+}
 #Home{
     position: absolute;
     left: 1300px;
