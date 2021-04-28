@@ -241,6 +241,43 @@
     top: 390px;
 }
 
+#skittles{
+    position: absolute;
+    left: 104px;
+    top: 640px;
+}
+#bounty{
+    position: absolute;
+    left: 280px;
+    top: 640px;
+}
+#bubbly{
+    position: absolute;
+    left: 470px;
+    top: 640px;
+}
+#mm{
+    position: absolute;
+    left: 620px;
+    top: 640px;
+}
+#acake{
+    position: absolute;
+    left: 795px;
+    top: 640px;
+}
+#flake{
+    position: absolute;
+    left: 975px;
+    top: 640px;
+}
+#oreod{
+    position: absolute;
+    left: 1150px;
+    top: 640px;
+}
+
+
 #needs{
     color: white;
     padding-top: 50px;
