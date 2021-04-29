@@ -747,59 +747,147 @@ header{
 
 #tomato{
     position: absolute;
-    right: 585px;
-    top: -85px;
-    color: white;
+    right: 1195px;
+    top: 265px;
 }
 #banana{
     position: absolute;
-    right: 400px;
-    top: -85px;
-    color: white;
+    right: 1010px;
+    top: 265px;
 
 }
 #strawb{
     position: absolute;
-    right: 200px;
-    top: -85px;
-    color: white;
+    right: 810px;
+    top: 265px;
 
 }
 #orange{
     position: absolute;
-    right: 40px;
-    top: -85px;
-    color: white;
+    right: 655px;
+    top: 265px;
 
 }
 #lemon{
     position: absolute;
-    right: 585px;
-    top: 130px;
-    color: white;
-
+    right: 1195px;
+    top: 480px;
 }
 #radish{
     position: absolute;
-    right: 400px;
-    top: 130px;
-    color: white;
-
+    right: 1015px;
+    top: 480px;
 }
 #onion{
     position: absolute;
-    right: 230px;
-    top: 130px;
-    color: white;
+    right: 840px;
+    top: 480px;
 
 }
 #span{
     position: absolute;
-    right: 40px;
-    top: 130px;
+    right: 650px;
+    top: 480px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i5mage1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#i5mage2{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+#i5mage3{
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+#i5mage4{
+    position: absolute;
+    left: 640px;
+    top: 150px;
+}
+
+#i5mage5{
+    position: absolute;
+    left: 100px;
+    top: 360px;
+}
+#i5mage6{
+    position: absolute;
+    left: 280px;
+    top: 360px;
+}
+
+
+#alaraj{
+    position: absolute;
+    right: 1185px;
+    top: 265px;
+    color: white;
+}
+#alarajtul{
+    position: absolute;
+    right: 980px;
+    top: 265px;
     color: white;
 
 }
+#jawhara{
+    position: absolute;
+    right: 790px;
+    top: 265px;
+    color: white;
+
+}
+#jawhara1{
+    position: absolute;
+    right: 610px;
+    top: 265px;
+    color: white;
+
+}
+#tamamc{
+    position: absolute;
+    right: 1160px;
+    top: 485px;
+    color: white;
+
+}
+#tamamf{
+    position: absolute;
+    right: 980px;
+    top: 485px;
+    color: white;
+
+}
+
+
+
+
 
 
 

@@ -6,6 +6,7 @@ $(document).ready(function(){
   $("#snackcandy").hide();
   $("#breadindex").hide();
   $("#vegetabless").hide();
+  $("#Deli").hide();
 
   
   $("#menue").click(function(){
@@ -31,6 +32,12 @@ $(document).ready(function(){
     
     $("#prodoption").hide();
     $("#vegetabless").show();
+
+  });
+   $("#chiken").click(function(){
+    
+    $("#prodoption").hide();
+    $("#Deli").show();
 
   });
 });
