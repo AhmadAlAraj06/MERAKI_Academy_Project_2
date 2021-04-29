@@ -8,6 +8,7 @@ $(document).ready(function(){
   $("#vegetabless").hide();
   $("#Deli").hide();
   $("#Dairyeggs").hide();
+  $("#milkn").hide();
 
   
   $("#menue").click(function(){
@@ -45,6 +46,12 @@ $(document).ready(function(){
     
     $("#prodoption").hide();
     $("#Dairyeggs").show();
+
+  });
+  $("#milk").click(function(){
+    
+    $("#prodoption").hide();
+    $("#milkn").show();
 
   });
 });

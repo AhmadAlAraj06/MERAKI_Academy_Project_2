@@ -1061,6 +1061,139 @@ header{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+#i7mage1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#i7mage2{
+    position: absolute;
+    left: 645px;
+    top: 150px;
+}
+#i7mage3{
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+#i7mage4{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+#i7mage5{
+    position: absolute;
+    left: 645px;
+    top: 475px;
+}
+#i7mage6{
+    position: absolute;
+    left: 465px;
+    top: 475px;
+}
+#i7mage7{
+    position: absolute;
+    left: 100px;
+    top: 475px;
+}
+#i7mage8{
+    position: absolute;
+    left: 280px;
+    top: 475px;
+}
+
+
+
+#milk1{
+    position: absolute;
+    right: 1215px;
+    top: 265px;
+    color: white;
+}
+#milk2{
+    position: absolute;
+    left: 290px;
+    top: 265px;
+    color: white;
+
+}
+#milk3{
+    position: absolute;
+    right: 775px;
+    top: 265px;
+    color: white;
+
+}
+#milk4{
+    position: absolute;
+    right: 605px;
+    top: 265px;
+    color: white;
+
+}
+#powder1{
+    position: absolute;
+    right: 820px;
+    top: 590px;
+    color: white;
+
+}
+#powder2{
+    position: absolute;
+    right: 640px;
+    top: 590px;
+    color: white;
+
+}
+#chocolate1{
+    position: absolute;
+    right: 1190px;
+    top: 590px;
+    color: white;
+}
+#mango1{
+    position: absolute;
+    right: 1010px;
+    top: 590px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     margin: 0;
     height: 100vh;
