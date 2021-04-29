@@ -1,5 +1,3 @@
-{/* <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> */}
-
 
 $(document).ready(function(){
   $("#prodoption").hide();
@@ -12,6 +10,9 @@ $(document).ready(function(){
   $("#frooozen").hide();
   $("#breakfastc").hide();
   $("#coffetea").hide();
+  $("#icecreamma").hide();
+  $("#drinke").hide();
+  $("#waterpr").hide();
 
   
   $("#menue").click(function(){
@@ -75,4 +76,23 @@ $(document).ready(function(){
     $("#coffetea").show();
 
   });
+  $("#ice").click(function(){
+    
+    $("#prodoption").hide();
+    $("#icecreamma").show();
+
+  });
+  $("#cola").click(function(){
+    
+    $("#prodoption").hide();
+    $("#drinke").show();
+
+  });
+  $("#water").click(function(){
+    
+    $("#prodoption").hide();
+    $("#waterpr").show();
+
+  });
 });
+

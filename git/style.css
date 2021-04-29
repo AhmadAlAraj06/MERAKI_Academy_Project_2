@@ -853,35 +853,35 @@ header{
     position: absolute;
     right: 980px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #jawhara{
     position: absolute;
     right: 790px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #jawhara1{
     position: absolute;
     right: 610px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #tamamc{
     position: absolute;
     right: 1160px;
     top: 485px;
-    color: white;
+    /* color: white; */
 
 }
 #tamamf{
     position: absolute;
     right: 980px;
     top: 485px;
-    color: white;
+    /* color: white; */
 
 }
 
@@ -979,69 +979,69 @@ header{
     position: absolute;
     right: 770px;
     top: 700px;
-    color: white;
+    /* color: white; */
 
 }
 #haritnash{
     position: absolute;
     right: 585px;
     top: 700px;
-    color: white;
+    /* color: white; */
 
 }
 #youghartmrai{
     position: absolute;
     right: 820px;
     top: 485px;
-    color: white;
+    /* color: white; */
 
 }
 #youghartmrai1{
     position: absolute;
     right: 640px;
     top: 485px;
-    color: white;
+    /* color: white; */
 
 }
 #youghartmrai2{
     position: absolute;
     right: 1190px;
     top: 700px;
-    color: white;
+    /* color: white; */
 }
 #labaneh{
     position: absolute;
     right: 1010px;
     top: 700px;
-    color: white;
+    /* color: white; */
 
 }
 #labaneh1{
     position: absolute;
     right: 830px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #alwalad{
     position: absolute;
-    right: 620px;
+    /* right: 620px; */
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #alwalad1{
     position: absolute;
     right: 1160px;
     top: 485px;
-    color: white;
+    /* color: white; */
 
 }
 #almraicheese{
     position: absolute;
     right: 1010px;
     top: 485px;
-    color: white;
+    /* color: white; */
 
 }
 
@@ -1125,14 +1125,14 @@ header{
     position: absolute;
     left: 285px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #milk3{
     position: absolute;
     right: 805px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #milk4{
@@ -1153,20 +1153,20 @@ header{
     position: absolute;
     right: 630px;
     top: 475px;
-    color: white;
+    /* color: white; */
 
 }
 #chocolate1{
     position: absolute;
     right: 1165px;
     top: 475px;
-    color: white;
+    /* color: white; */
 }
 #mango1{
     position: absolute;
     right: 1000px;
     top: 475px;
-    color: white;
+    /* color: white; */
 
 }
 
@@ -1233,48 +1233,48 @@ header{
     position: absolute;
     right: 1180px;
     top: 265px;
-    color: white;
+    /* color: white; */
 }
 #chickenb{
     position: absolute;
     left: 280px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #zinger{
     position: absolute;
     right: 855px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #spizinger{
     position: absolute;
     right: 630px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #corndnb{
     position: absolute;
     right: 820px;
     top: 475px;
-    color: white;
+    /* color: white; */
 
 }
 #fries{
     position: absolute;
     left: 280px;
     top: 475px;;
-    color: white;
+    /* color: white; */
 
 }
 #wedges{
     position: absolute;
     right: 1180px;
     top: 475px;
-    color: white;
+    /* color: white; */
 }
 
 
@@ -1346,48 +1346,48 @@ header{
     position: absolute;
     right: 1200px;
     top: 265px;
-    color: white;
+    /* color: white; */
 }
 #corn2{
     position: absolute;
     left: 280px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #corn3{
     position: absolute;
     right: 840px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #corn4{
     position: absolute;
     right: 650px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #nestle1{
     position: absolute;
     right: 800px;
     top: 475px;
-    color: white;
+    /* color: white; */
 
 }
 #honey1{
     position: absolute;
     left: 280px;
     top: 475px;;
-    color: white;
+    /* color: white; */
 
 }
 #halawa1{
     position: absolute;
     right: 1175px;
     top: 475px;
-    color: white;
+    /* color: white; */
 }
 
 
@@ -1447,51 +1447,346 @@ header{
     position: absolute;
     right: 1180px;
     top: 265px;
-    color: white;
+    /* color: white; */
 }
 #nestleco{
     position: absolute;
     left: 280px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #maroufco{
     position: absolute;
     right: 800px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #marouf1co{
     position: absolute;
     right: 605px;
     top: 265px;
-    color: white;
+    /* color: white; */
 
 }
 #ahmadte{
     position: absolute;
     right: 820px;
     top: 475px;
-    color: white;
+    /* color: white; */
 
 }
 #liptonte{
     position: absolute;
     left: 290px;
     top: 475px;;
-    color: white;
+    /* color: white; */
 
 }
 #karakte{
     position: absolute;
     right: 1190px;
     top: 475px;
-    color: white;
+    /* color: white; */
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i11mage1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#i11mage2{
+    position: absolute;
+    left: 645px;
+    top: 150px;
+}
+#i11mage3{
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+#i11mage4{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+#i11mage5{
+    position: absolute;
+    left: 280px;
+    top: 410px;
+}
+#i11mage6{
+    position: absolute;
+    left: 465px;
+    top: 410px;
+}
+#i11mage7{
+    position: absolute;
+    left: 100px;
+    top: 410px;
+}
+#i11mage8{
+    position: absolute;
+    left: 645px;
+    top: 410px;
+}
+
+
+
+#mangum11{
+    position: absolute;
+    right: 1180px;
+    top: 265px;
+    /* color: white; */
+}
+#mangum12{
+    position: absolute;
+    left: 280px;
+    top: 265px;
+    /* color: white; */
+
+}
+#mangum13{
+    position: absolute;
+    right: 800px;
+    top: 265px;
+    /* color: white; */
+
+}
+#mangum14{
+    position: absolute;
+    right: 605px;
+    top: 265px;
+    /* color: white; */
+
+}
+#mangum15{
+    position: absolute;
+    right: 790px;
+    top: 525px;
+    /* color: white; */
+
+}
+#mangum16{
+    position: absolute;
+    left: 280px;
+    top: 525px;;
+    /* color: white; */
+
+}
+#mangum17{
+    position: absolute;
+    right: 1160px;
+    top: 525px;
+    /* color: white; */
+}
+#mangum18{
+    position: absolute;
+    left: 645px;
+    top: 525px;
+    /* color: white; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i12mage1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#i12mage2{
+    position: absolute;
+    left: 645px;
+    top: 150px;
+}
+#i12mage3{
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+#i12mage4{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+#i12mage5{
+    position: absolute;
+    left: 280px;
+    top: 410px;
+}
+#i12mage6{
+    position: absolute;
+    left: 465px;
+    top: 410px;
+}
+#i12mage7{
+    position: absolute;
+    left: 100px;
+    top: 410px;
+}
+#i12mage8{
+    position: absolute;
+    left: 645px;
+    top: 410px;
+}
+
+
+
+#tang1{
+    position: absolute;
+    right: 1193px;
+    top: 265px;
+    /* color: white; */
+}
+#vimto1{
+    position: absolute;
+    left: 290px;
+    top: 265px;
+    /* color: white; */
+
+}
+#cola11{
+    position: absolute;
+    right: 830px;
+    top: 265px;
+    /* color: white; */
+
+}
+#pepsi11{
+    position: absolute;
+    right: 635px;
+    top: 265px;
+    /* color: white; */
+
+}
+#pepsi21{
+    position: absolute;
+    right: 810px;
+    top: 525px;
+    /* color: white; */
+
+}
+#freez1{
+    position: absolute;
+    left: 290px;
+    top: 525px;;
+    /* color: white; */
+
+}
+#redbul1{
+    position: absolute;
+    right: 1170px;
+    top: 525px;
+    /* color: white; */
+}
+#monster1{
+    position: absolute;
+    left: 645px;
+    top: 525px;
+    /* color: white; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i135541 0mage1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#i13mage2{
+    position: absolute;
+    left: 645px;
+    top: 150px;
+}
+#i13mage3{
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+#i13mage4{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+
+#water11{
+    position: absolute;
+    right: 1193px;
+    top: 265px;
+    color: white;
+}
+#water12{
+    position: absolute;
+    left: 290px;
+    top: 265px;
+    color: white;
+
+}
+#water13{
+    position: absolute;
+    right: 830px;
+    top: 265px;
+    color: white;
+
+}
+#water14{
+    position: absolute;
+    right: 635px;
+    top: 265px;
+    color: white;
+
+}
 
 
 
