@@ -1,0 +1,725 @@
+/* #main{
+    background-image: url(https://kassaroo.com/wp-content/uploads/2021/01/Ways-to-help-you-learn-the-art-of-cooking.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height:100%;
+    background-position: center;
+    background-attachment: fixed;
+} */
+#title{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 200px;
+    font-size: 25px;
+    left: 380px;
+}
+#logo{
+color: rgb(255, 255, 255);
+position: absolute;
+left: 60px;
+top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i1mage1{
+    position: absolute;
+    left: 100px;
+    top: 175px;
+}
+#i1mage2{
+    position: absolute;
+    left: 275px;
+    top: 175px;
+}
+#i1mage3{
+    position: absolute;
+    left: 450px;
+    top: 175px;
+}
+#i1mage4{
+    position: absolute;
+    left: 625px;
+    top: 175px;
+}
+#i1mage5{
+    position: absolute;
+    left: 800px;
+    top: 175px;
+}
+#i1mage6{
+    position: absolute;
+    left: 975px;
+    top: 175px;
+}
+#i1mage7{
+    position: absolute;
+    left: 1150px;
+    top: 175px;
+}
+#i1mage8{
+    position: absolute;
+    left: 275px;
+    top: 425px;
+}
+#i1mage9{
+    position: absolute;
+    left: 450px;
+    top: 425px;
+}
+#i1mage10{
+    position: absolute;
+    left: 625px;
+    top: 425px;
+}
+#i1mage11{
+    position: absolute;
+    left: 800px;
+    top: 425px;
+}
+#i1mage12{
+    position: absolute;
+    left: 975px;
+    top: 425px;
+}
+#snack{
+    position: absolute;
+    left: 110px;
+    top: 300px;
+}
+#bread{
+    position: absolute;
+    left: 285px;
+    top: 300px;
+}
+#fruits{
+    position: absolute;
+    left: 465px;
+    top: 300px;
+}
+#chiken{
+    position: absolute;
+    left: 645px;
+    top: 300px;
+}
+#eggs{
+    position: absolute;
+    left: 817px;
+    top: 300px;
+}
+#milk{
+    position: absolute;
+    left: 1008px;
+    top: 300px;
+}
+#frozen{
+    position: absolute;
+    left: 1160px;
+    top: 300px;
+}
+#breakfast{
+    position: absolute;
+    left: 275px;
+    top: 560px;
+}
+#tea{
+    position: absolute;
+    left: 465px;
+    top: 560px;
+}
+#ice{
+    position: absolute;
+    left: 640px;
+    top: 560px;
+}
+#water{
+    position: absolute;
+    left: 825px;
+    top: 560px;
+}
+#cola{
+    position: absolute;
+    left: 993px;
+    top: 560px;
+}
+
+
+#needs{
+    color: white;
+    padding-top: 50px;
+
+}
+#Cate{
+    color: white;
+
+        /* text-align: center; */
+    /* margin-bottom: 100px; */
+}
+#yum{
+    color: white;
+    padding-left: 1000px;
+}
+
+
+
+#Home{
+    position: absolute;
+    left: 1300px;
+}
+header{
+    background-color: red;
+    background-position:center;
+    background-size: cover;
+    margin-left: 0px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    min-height: 15%;
+    text-align: justify;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#i2mage1{
+    position: absolute;
+    left: 100px;
+    top: 275px;
+}
+#i2mage2{
+    position: absolute;
+    left: 275px;
+    top: 275px;
+}
+#i2mage3{
+    position: absolute;
+    left: 450px;
+    top: 275px;
+}
+#i2mage4{
+    position: absolute;
+    left: 625px;
+    top: 275px;
+}
+#i2mage5{
+    position: absolute;
+    left: 800px;
+    top: 275px;
+}
+#i2mage6{
+    position: absolute;
+    left: 975px;
+    top: 275px;
+}
+#i2mage7{
+    position: absolute;
+    left: 1150px;
+    top: 275px;
+}
+#i2mage8{
+    position: absolute;
+    left: 100px;
+    top: 525px;
+}
+#i2mage9{
+    position: absolute;
+    left: 275px;
+    top: 525px;
+}
+#i2mage10{
+    position: absolute;
+    left: 450px;
+    top: 525px;
+}
+#i2mage11{
+    position: absolute;
+    left: 625px;
+    top: 525px;
+}
+#i2mage12{
+    position: absolute;
+    left: 800px;
+    top: 525px;
+}
+#i2mage13{
+    position: absolute;
+    left: 975px;
+    top: 525px;
+}
+#i2mage14{
+    position: absolute;
+    left: 1150px;
+    top: 525px;
+}
+#i2mage15{
+    position: absolute;
+    left: 100px;
+    top: 775px;
+}
+#i2mage16{
+    position: absolute;
+    left: 275px;
+    top: 775px;
+}
+#i2mage17{
+    position: absolute;
+    left: 450px;
+    top: 775px;
+}
+#i2mage18{
+    position: absolute;
+    left: 625px;
+    top: 775px;
+}
+#i2mage19{
+    position: absolute;
+    left: 800px;
+    top: 775px;
+}
+#i2mage20{
+    position: absolute;
+    left: 975px;
+    top: 775px;
+}
+#i2mage21{
+    position: absolute;
+    left: 1150px;
+    top: 775px;
+}
+#i2mage22{
+    position: absolute;
+    left: 100px;
+    top: 1025px;
+}
+#i2mage23{
+    position: absolute;
+    left: 275px;
+    top: 1025px;
+}
+#i2mage24{
+    position: absolute;
+    left: 450px;
+    top: 1025px;
+}
+#i2mage25{
+    position: absolute;
+    left: 625px;
+    top: 1025px;
+}
+#i2mage26{
+    position: absolute;
+    left: 800px;
+    top: 1025px;
+}
+#i2mage27{
+    position: absolute;
+    left: 975px;
+    top: 1025px;
+}
+#i2mage28{
+    position: absolute;
+    left: 1150px;
+    top: 1025px;
+}
+#i2mage29{
+    position: absolute;
+    left: 100px;
+    top: 1275px;
+}
+#i2mage30{
+    position: absolute;
+    left: 275px;
+    top: 1275px;
+}
+#i2mage31{
+    position: absolute;
+    left: 450px;
+    top: 1275px;
+}
+#i2mage32{
+    position: absolute;
+    left: 625px;
+    top: 1275px;
+}
+#i2mage33{
+    position: absolute;
+    left: 800px;
+    top: 1275px;
+}
+#i2mage34{
+    position: absolute;
+    left: 975px;
+    top: 1275px;
+}
+#i2mage35{
+    position: absolute;
+    left: 1150px;
+    top: 1275px;
+}
+#i2mage36{
+    position: absolute;
+    left: 100px;
+    top: 1525px;
+}
+#i2mage37{
+    position: absolute;
+    left: 275px;
+    top: 1525px;
+}
+
+
+#toffi{
+    position: absolute;
+    left: 104px;
+    top: 390px;
+}
+#tobl{
+    position: absolute;
+    left: 275px;
+    top: 390px;
+}
+#riter{
+    position: absolute;
+    left: 455px;
+    top: 390px;
+}
+#nutella{
+    position: absolute;
+    left: 638px;
+    top: 390px;
+}
+#no1{
+    position: absolute;
+    left: 795px;
+    top: 390px;
+}
+#nuttelab{
+    position: absolute;
+    left: 1000px;
+    top: 390px;
+}
+#rashen{
+    position: absolute;
+    left: 1160px;
+    top: 390px;
+}
+
+
+#skittles{
+    position: absolute;
+    left: 104px;
+    top: 640px;
+}
+#bounty{
+    position: absolute;
+    left: 280px;
+    top: 640px;
+}
+#bubbly{
+    position: absolute;
+    left: 470px;
+    top: 640px;
+}
+#mm{
+    position: absolute;
+    left: 620px;
+    top: 640px;
+}
+#acake{
+    position: absolute;
+    left: 795px;
+    top: 640px;
+}
+#flake{
+    position: absolute;
+    left: 975px;
+    top: 640px;
+}
+#oreod{
+    position: absolute;
+    left: 1150px;
+    top: 640px;
+}
+
+
+#wafe{
+    position: absolute;
+    left: 104px;
+    top: 890px;
+}
+#mentos{
+    position: absolute;
+    left: 280px;
+    top: 890px;
+}
+#merci{
+    position: absolute;
+    left: 460px;
+    top: 890px;
+}
+#oreo1{
+    position: absolute;
+    left: 630px;
+    top: 890px;
+}
+#doritos{
+    position: absolute;
+    left: 805px;
+    top: 890px;
+}
+#pringles{
+    position: absolute;
+    left: 975px;
+    top: 890px;
+}
+#stix{
+    position: absolute;
+    left: 1165px;
+    top: 890px;
+}
+
+
+#galaxy{
+    position: absolute;
+    left: 100px;
+    top: 1140px;
+}
+#garden{
+    position: absolute;
+    left: 280px;
+    top: 1140px;
+}
+#harbio{
+    position: absolute;
+    left: 455px;
+    top: 1140px;
+}
+#kinderk{
+    position: absolute;
+    left: 620px;
+    top: 1140px;
+}
+#kitkat{
+    position: absolute;
+    left: 800px;
+    top: 1140px;
+}
+#kinderb{
+    position: absolute;
+    left: 975px;
+    top: 1140px;
+}
+#kinderj{
+    position: absolute;
+    left: 1165px;
+    top: 1140px;
+}
+
+
+
+#lays{
+    position: absolute;
+    left: 115px;
+    top: 1390px;
+}
+#lndt{
+    position: absolute;
+    left: 275px;
+    top: 1390px;
+}
+#lion{
+    position: absolute;
+    left: 455px;
+    top: 1390px;
+}
+#loaker{
+    position: absolute;
+    left: 625px;
+    top: 1390px;
+}
+#capr{
+    position: absolute;
+    left: 800px;
+    top: 1390px;
+}
+#mrch{
+    position: absolute;
+    left: 990px;
+    top: 1390px;
+}
+#cheetos{
+    position: absolute;
+    left: 1165px;
+    top: 1390px;
+}
+
+
+#Mcvities{
+    position: absolute;
+    left: 100px;
+    top: 1635px;
+}
+#corn{
+    position: absolute;
+    left: 275px;
+    top: 1635px;
+}
+
+
+#needs{
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+.Cate{
+    color: white;
+    padding-left: 543px;
+}
+#yum{
+    color: white;
+    padding-left: 1200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    --c: rgb(255, 0, 0);
+    color: var(--c);
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+    top: 100px;
+    left: -140px;
+}
+
+nav ul li span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+nav ul li:hover span {
+    transform: translateY(0) scale(2);
+}
+
+nav ul li span:nth-child(1) {
+    --n: 1;
+}
+
+nav ul li span:nth-child(2) {
+    --n: 2;
+}
+
+nav ul li span:nth-child(3) {
+    --n: 3;
+}
+
+nav ul li span:nth-child(4) {
+    --n: 4;
+}
