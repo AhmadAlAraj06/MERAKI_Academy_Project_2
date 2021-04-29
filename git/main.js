@@ -4,7 +4,10 @@
 $(document).ready(function(){
   $("#prodoption").hide();
   $("#snackcandy").hide();
+  $("#breadindex").hide();
+  $("#vegetabless").hide();
 
+  
   $("#menue").click(function(){
     
     $("#main").hide();
@@ -16,6 +19,18 @@ $(document).ready(function(){
     
     $("#prodoption").hide();
     $("#snackcandy").show();
+
+  });
+  $("#breads").click(function(){
+    
+    $("#prodoption").hide();
+    $("#breadindex").show();
+
+  });
+  $("#fruit").click(function(){
+    
+    $("#prodoption").hide();
+    $("#vegetabless").show();
 
   });
 });
