@@ -898,6 +898,169 @@ header{
 
 
 
+
+
+#i6mage1{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+#i6mage2{
+    position: absolute;
+    left: 280px;
+    top: 150px;
+}
+#i6mage3{
+    position: absolute;
+    left: 460px;
+    top: 570px;
+}
+#i6mage4{
+    position: absolute;
+    left: 645px;
+    top: 570px;
+}
+#i6mage5{
+    position: absolute;
+    left: 645px;
+    top: 360px;
+}
+#i6mage6{
+    position: absolute;
+    left: 465px;
+    top: 360px;
+}
+#i6mage7{
+    position: absolute;
+    left: 100px;
+    top: 570px;
+}
+#i6mage8{
+    position: absolute;
+    left: 280px;
+    top: 570px;
+}
+#i6mage9{
+    position: absolute;
+    left: 460px;
+    top: 150px;
+}
+#i6mage10{
+    position: absolute;
+    left: 640px;
+    top: 150px;
+}
+#i6mage11{
+    position: absolute;
+    left: 100px;
+    top: 360px;
+}
+#i6mage12{
+    position: absolute;
+    left: 280px;
+    top: 360px;
+}
+
+
+#eggs1{
+    position: absolute;
+    right: 1215px;
+    top: 265px;
+    color: white;
+}
+#eggs2{
+    position: absolute;
+    right: 1030px;
+    top: 265px;
+    color: white;
+
+}
+#hamodehsh{
+    position: absolute;
+    right: 770px;
+    top: 700px;
+    color: white;
+
+}
+#haritnash{
+    position: absolute;
+    right: 585px;
+    top: 700px;
+    color: white;
+
+}
+#youghartmrai{
+    position: absolute;
+    right: 820px;
+    top: 485px;
+    color: white;
+
+}
+#youghartmrai1{
+    position: absolute;
+    right: 640px;
+    top: 485px;
+    color: white;
+
+}
+#youghartmrai2{
+    position: absolute;
+    right: 1190px;
+    top: 700px;
+    color: white;
+}
+#labaneh{
+    position: absolute;
+    right: 1010px;
+    top: 700px;
+    color: white;
+
+}
+#labaneh1{
+    position: absolute;
+    right: 830px;
+    top: 265px;
+    color: white;
+
+}
+#alwalad{
+    position: absolute;
+    right: 620px;
+    top: 265px;
+    color: white;
+
+}
+#alwalad1{
+    position: absolute;
+    right: 1160px;
+    top: 485px;
+    color: white;
+
+}
+#almraicheese{
+    position: absolute;
+    right: 1010px;
+    top: 485px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 body {
     margin: 0;
     height: 100vh;

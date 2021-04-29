@@ -7,6 +7,7 @@ $(document).ready(function(){
   $("#breadindex").hide();
   $("#vegetabless").hide();
   $("#Deli").hide();
+  $("#Dairyeggs").hide();
 
   
   $("#menue").click(function(){
@@ -38,6 +39,12 @@ $(document).ready(function(){
     
     $("#prodoption").hide();
     $("#Deli").show();
+
+  });
+  $("#eggs").click(function(){
+    
+    $("#prodoption").hide();
+    $("#Dairyeggs").show();
 
   });
 });
