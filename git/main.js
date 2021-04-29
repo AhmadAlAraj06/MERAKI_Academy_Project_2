@@ -9,6 +9,9 @@ $(document).ready(function(){
   $("#Deli").hide();
   $("#Dairyeggs").hide();
   $("#milkn").hide();
+  $("#frooozen").hide();
+  $("#breakfastc").hide();
+  $("#coffetea").hide();
 
   
   $("#menue").click(function(){
@@ -52,6 +55,24 @@ $(document).ready(function(){
     
     $("#prodoption").hide();
     $("#milkn").show();
+
+  });
+  $("#frozen").click(function(){
+    
+    $("#prodoption").hide();
+    $("#frooozen").show();
+
+  });
+  $("#breakfast").click(function(){
+    
+    $("#prodoption").hide();
+    $("#breakfastc").show();
+
+  });
+  $("#tea").click(function(){
+    
+    $("#prodoption").hide();
+    $("#coffetea").show();
 
   });
 });
