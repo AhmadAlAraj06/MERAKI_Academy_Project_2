@@ -1,4 +1,4 @@
-body{
+/* body{
     background-image: url(https://kassaroo.com/wp-content/uploads/2021/01/Ways-to-help-you-learn-the-art-of-cooking.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -6,7 +6,8 @@ body{
     height:100%;
     background-position: center;
     background-attachment: fixed;
-}
+} */
+
 #title{
     color: rgb(255, 255, 255);
     position: absolute;
@@ -24,7 +25,21 @@ top: 10px;
 
 
 
+#main{
+    background-image: url(https://kassaroo.com/wp-content/uploads/2021/01/Ways-to-help-you-learn-the-art-of-cooking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height:100%;
+    background-position: center;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0%;
+   left: 0%;
+   right: 0%;
+   bottom: 0%;
 
+}
 
 
 
@@ -44,6 +59,7 @@ top: 10px;
 
 #prodoption{
     background-color: white;
+    
 }
 
 #i1mage1{
@@ -188,27 +204,29 @@ top: 10px;
 #needs{
     color: white;
     padding-top: 50px;
+    font-size: 28px;
 
 }
 #Cate{
     color: white;
 
-        /* text-align: center; */
+        margin-left: 27%;
+      font-size: 30px;
+        /* margin-top: 200px; */
     /* margin-bottom: 100px; */
 }
-#yum{
+/* #yum{
     color: white;
     padding-left: 1000px;
-}
+    font-size: 20px;
+
+} */
 
 
 
-#Home{
-    position: absolute;
-    left: 1300px;
-}
+
 header{
-    background-color: red;
+    background-color: #9F0707;
     background-position:center;
     background-size: cover;
     margin-left: 0px;
@@ -217,7 +235,7 @@ header{
     right: 0px;
     left: 0px;
     min-height: 15%;
-    text-align: justify;
+    /* text-align: justify; */
 
 }
 
@@ -703,43 +721,43 @@ header{
 
 #i4mage1{
     position: absolute;
-    left: 100px;
+    left: 300px;
     top: 150px;
 }
 #i4mage2{
     position: absolute;
-    left: 280px;
+    left: 480px;
     top: 150px;
 }
 #i4mage3{
     position: absolute;
-    left: 460px;
+    left: 660px;
     top: 150px;
 }
 #i4mage4{
     position: absolute;
-    left: 640px;
+    left: 840px;
     top: 150px;
 }
 
 #i4mage5{
     position: absolute;
-    left: 100px;
+    left: 300px;
     top: 360px;
 }
 #i4mage6{
     position: absolute;
-    left: 280px;
+    left: 480px;
     top: 360px;
 }
 #i4mage7{
     position: absolute;
-    left: 460px;
+    left: 660px;
     top: 360px;
 }
 #i4mage8{
     position: absolute;
-    left: 640px;
+    left: 840px;
     top: 360px;
 }
 
@@ -747,46 +765,46 @@ header{
 
 #tomato{
     position: absolute;
-    right: 1195px;
+    right: 1010px;
     top: 265px;
 }
 #banana{
     position: absolute;
-    right: 1010px;
+    right: 815px;
     top: 265px;
 
 }
 #strawb{
     position: absolute;
-    right: 810px;
+    right: 625px;
     top: 265px;
 
 }
 #orange{
     position: absolute;
-    right: 655px;
+    right: 465px;
     top: 265px;
 
 }
 #lemon{
     position: absolute;
-    right: 1195px;
+    right: 1015px;
     top: 480px;
 }
 #radish{
     position: absolute;
-    right: 1015px;
+    right: 840px;
     top: 480px;
 }
 #onion{
     position: absolute;
-    right: 840px;
+    right: 645px;
     top: 480px;
 
 }
 #span{
     position: absolute;
-    right: 650px;
+    right: 455px;
     top: 480px;
 
 }
@@ -847,41 +865,35 @@ header{
     position: absolute;
     right: 1185px;
     top: 265px;
-    color: white;
 }
 #alarajtul{
     position: absolute;
     right: 980px;
     top: 265px;
-    /* color: white; */
 
 }
 #jawhara{
     position: absolute;
     right: 790px;
     top: 265px;
-    /* color: white; */
 
 }
 #jawhara1{
     position: absolute;
     right: 610px;
     top: 265px;
-    /* color: white; */
 
 }
 #tamamc{
     position: absolute;
     right: 1160px;
     top: 485px;
-    /* color: white; */
 
 }
 #tamamf{
     position: absolute;
     right: 980px;
     top: 485px;
-    /* color: white; */
 
 }
 
@@ -966,82 +978,70 @@ header{
     position: absolute;
     right: 1215px;
     top: 265px;
-    color: white;
 }
 #eggs2{
     position: absolute;
     right: 1030px;
     top: 265px;
-    color: white;
 
 }
 #hamodehsh{
     position: absolute;
     right: 770px;
     top: 700px;
-    /* color: white; */
 
 }
 #haritnash{
     position: absolute;
     right: 585px;
     top: 700px;
-    /* color: white; */
 
 }
 #youghartmrai{
     position: absolute;
     right: 820px;
     top: 485px;
-    /* color: white; */
 
 }
 #youghartmrai1{
     position: absolute;
     right: 640px;
     top: 485px;
-    /* color: white; */
 
 }
 #youghartmrai2{
     position: absolute;
     right: 1190px;
     top: 700px;
-    /* color: white; */
 }
 #labaneh{
     position: absolute;
     right: 1010px;
     top: 700px;
-    /* color: white; */
 
 }
 #labaneh1{
     position: absolute;
     right: 830px;
     top: 265px;
-    /* color: white; */
 
 }
 #alwalad{
     position: absolute;
-    /* right: 620px; */
     top: 265px;
-    /* color: white; */
+    right: 620px;
 
 }
 #alwalad1{
     position: absolute;
     right: 1160px;
     top: 485px;
-    /* color: white; */
 
 }
 #almraicheese{
     position: absolute;
     right: 1010px;
     top: 485px;
-    /* color: white; */
 
 }
 
@@ -1119,7 +1119,6 @@ header{
     position: absolute;
     right: 1205px;
     top: 265px;
-    color: white;
 }
 #milk2{
     position: absolute;
@@ -1139,14 +1138,12 @@ header{
     position: absolute;
     right: 655px;
     top: 265px;
-    color: white;
 
 }
 #powder1{
     position: absolute;
     right: 810px;
     top: 475px;
-    color: white;
 
 }
 #powder2{
@@ -1739,7 +1736,7 @@ header{
 
 
 
-#i135541 0mage1{
+#i13mage1{
     position: absolute;
     left: 100px;
     top: 150px;
@@ -1764,27 +1761,23 @@ header{
     position: absolute;
     right: 1193px;
     top: 265px;
-    color: white;
 }
 #water12{
     position: absolute;
     left: 290px;
     top: 265px;
-    color: white;
 
 }
 #water13{
     position: absolute;
     right: 830px;
     top: 265px;
-    color: white;
 
 }
 #water14{
     position: absolute;
     right: 635px;
     top: 265px;
-    color: white;
 
 }
 
@@ -1796,16 +1789,23 @@ header{
 
 
 
+nav{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+}
 
-
-body {
+/* body {
     margin: 0;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: black;
-}
+} */
 
 nav ul {
     list-style-type: none;
