@@ -2255,58 +2255,100 @@ header{
     position: absolute;
     right: 1193px;
     top: 265px;
-    /* color: white; */
 }
 #vimto1{
     position: absolute;
     left: 290px;
     top: 265px;
-    /* color: white; */
 
 }
 #cola11{
     position: absolute;
     right: 830px;
     top: 265px;
-    /* color: white; */
 
 }
 #pepsi11{
     position: absolute;
     right: 635px;
     top: 265px;
-    /* color: white; */
 
 }
 #pepsi21{
     position: absolute;
     right: 810px;
     top: 525px;
-    /* color: white; */
 
 }
 #freez1{
     position: absolute;
     left: 290px;
     top: 525px;;
-    /* color: white; */
 
 }
 #redbul1{
     position: absolute;
     right: 1170px;
     top: 525px;
-    /* color: white; */
 }
 #monster1{
     position: absolute;
     left: 645px;
     top: 525px;
-    /* color: white; */
 }
 
 
 
+
+
+
+
+
+#tang1price{
+    position: absolute;
+    right: 1195px;
+    top: 300px;
+}
+#vimto1price{
+    position: absolute;
+    left: 290px;
+    top: 300px;
+
+}
+#cola11price{
+    position: absolute;
+    right: 830px;
+    top: 300px;
+
+}
+#pepsi11price{
+    position: absolute;
+    right: 645px;
+    top: 300px;
+
+}
+#pepsi21price{
+    position: absolute;
+    right: 820px;
+    top: 555px;
+
+}
+#freez1price{
+    position: absolute;
+    left: 290px;
+    top: 555px;;
+
+}
+#redbul1price{
+    position: absolute;
+    right: 1205px;
+    top: 555px;
+}
+#monster1price{
+    position: absolute;
+    left: 645px;
+    top: 555px;
+}
 
 
 
