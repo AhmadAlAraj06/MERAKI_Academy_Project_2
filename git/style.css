@@ -1823,52 +1823,86 @@ header{
     position: absolute;
     right: 1200px;
     top: 265px;
-    /* color: white; */
 }
 #corn2{
     position: absolute;
     left: 280px;
     top: 265px;
-    /* color: white; */
 
 }
 #corn3{
     position: absolute;
     right: 840px;
     top: 265px;
-    /* color: white; */
 
 }
 #corn4{
     position: absolute;
     right: 650px;
     top: 265px;
-    /* color: white; */
 
 }
 #nestle1{
     position: absolute;
     right: 800px;
     top: 475px;
-    /* color: white; */
 
 }
 #honey1{
     position: absolute;
     left: 280px;
     top: 475px;;
-    /* color: white; */
 
 }
 #halawa1{
     position: absolute;
     right: 1175px;
     top: 475px;
-    /* color: white; */
 }
 
 
 
+
+#corn1price{
+    position: absolute;
+    right: 1200px;
+    top: 290px;
+}
+#corn2price{
+    position: absolute;
+    left: 280px;
+    top: 290px;
+
+}
+#corn3price{
+    position: absolute;
+    right: 840px;
+    top: 290px;
+
+}
+#corn4price{
+    position: absolute;
+    right: 650px;
+    top: 290px;
+
+}
+#nestle1price{
+    position: absolute;
+    left: 280px;
+    top: 530px;;
+
+}
+#honey1price{
+    position: absolute;
+    right: 830px;
+    top: 530px;
+
+}
+#halawa1price{
+    position: absolute;
+    right: 1195px;
+    top: 530px;
+}
 
 
 
