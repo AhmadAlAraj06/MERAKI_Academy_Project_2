@@ -2345,14 +2345,18 @@ header{
     top: 150px;
 }
 
+
+
+
+
 #water11{
     position: absolute;
-    right: 1193px;
+    right: 1185px;
     top: 265px;
 }
 #water12{
     position: absolute;
-    left: 290px;
+    left: 282px;
     top: 265px;
 
 }
@@ -2368,6 +2372,43 @@ header{
     top: 265px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+#water11price{
+    position: absolute;
+    right: 1205px;
+    top: 280px;
+}
+#water12price{
+    position: absolute;
+    left: 282px;
+    top: 280px;
+
+}
+#water13price{
+    position: absolute;
+    right: 840px;
+    top: 280px;
+
+}
+#water14price{
+    position: absolute;
+    right: 655px;
+    top: 280px;
+
+}
+
+
+
 
 
 
