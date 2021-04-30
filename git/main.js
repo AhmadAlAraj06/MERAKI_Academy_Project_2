@@ -94,7 +94,86 @@ $(document).ready(function(){
     $("#waterpr").show();
 
   });
+  $("#needswater").click(function(){
+    
+    $("#waterpr").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needscola").click(function(){
+    
+    $("#drinke").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsmangum").click(function(){
+    
+    $("#icecreamma").hide();
+    $("#prodoption").show();
+
+  });
+  // 
+  $("#needscoffee").click(function(){
+    
+    $("#coffetea").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsbreak").click(function(){
+    
+    $("#breakfastc").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsfrooz").click(function(){
+    
+    $("#frooozen").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsmilka").click(function(){
+    
+    $("#milkn").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needseggg").click(function(){
+    
+    $("#Dairyeggs").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsdelii").click(function(){
+    
+    $("#Deli").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsvegg").click(function(){
+    
+    $("#vegetabless").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needsbrd").click(function(){
+    
+    $("#breadindex").hide();
+    $("#prodoption").show();
+
+  });
+  $("#needssnck").click(function(){
+    
+    $("#snackcandy").hide();
+    $("#prodoption").show();
+
+  });
+
 });
+
+
+
+
+
 
 
 

@@ -207,14 +207,259 @@ top: 10px;
     font-size: 28px;
 
 }
+#needswater{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+
+}
+#needswater:hover{
+    cursor: pointer ;
+}
+#needscola{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needscola:hover{
+    cursor: pointer ;
+}
+#needsmangum{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsmangum:hover{
+    cursor: pointer ;
+}
+#needscoffee{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needscoffee:hover{
+    cursor: pointer ;
+}
+
+#needsbreak{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsbreak:hover{
+    cursor: pointer ;
+}
+#needsfrooz{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsfrooz:hover{
+    cursor: pointer ;
+}
+#needsmilka{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsmilka:hover{
+    cursor: pointer ;
+}
+#needseggg{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needseggg:hover{
+    cursor: pointer ;
+}
+#needsdelii{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsdelii:hover{
+    cursor: pointer ;
+}
+#needsvegg{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsvegg:hover{
+    cursor: pointer ;
+}
+#needsbrd{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needsbrd:hover{
+    cursor: pointer ;
+}
+#needssnck{
+    color: white;
+    font-size: 28px;
+    left: 48px;
+    top: 12px;
+    position: absolute;
+
+}
+#needssnck:hover{
+    cursor: pointer ;
+}
+
+
+
+
+
+
+
+
+
 #Cate{
     color: white;
 
-        margin-left: 27%;
+        margin-left: 26%;
       font-size: 30px;
-        /* margin-top: 200px; */
-    /* margin-bottom: 100px; */
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+position: absolute;
+top: 35px;
 }
+#Cates{
+    color: white;
+position: absolute;
+top: 35px;
+        margin-left: 42%;
+      font-size: 30px;
+
+}
+#Cateb{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catev{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Cated{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Cateda{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catemi{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catefr{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catebr{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catecf{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Cateice{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catedr{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+#Catewar{
+    color: white;
+    position: absolute;
+    top: 35px;
+            margin-left: 42%;
+          font-size: 30px;
+    
+}
+
+
+
+
+
+
 /* #yum{
     color: white;
     padding-left: 1000px;
@@ -230,7 +475,7 @@ header{
     background-position:center;
     background-size: cover;
     margin-left: 0px;
-    position: fixed;
+    position:absolute;
     top: 0px;
     right: 0px;
     left: 0px;
@@ -2258,31 +2503,31 @@ header{
 }
 #vimto1{
     position: absolute;
-    left: 290px;
+    left: 280px;
     top: 265px;
 
 }
 #cola11{
     position: absolute;
-    right: 830px;
+    right: 845px;
     top: 265px;
 
 }
 #pepsi11{
     position: absolute;
-    right: 635px;
+    right: 640px;
     top: 265px;
 
 }
 #pepsi21{
     position: absolute;
-    right: 810px;
+    right: 820px;
     top: 525px;
 
 }
 #freez1{
     position: absolute;
-    left: 290px;
+    left: 280px;
     top: 525px;;
 
 }
@@ -2311,31 +2556,31 @@ header{
 }
 #vimto1price{
     position: absolute;
-    left: 290px;
+    left: 280px;
     top: 300px;
 
 }
 #cola11price{
     position: absolute;
-    right: 830px;
+    right: 840px;
     top: 300px;
 
 }
 #pepsi11price{
     position: absolute;
-    right: 645px;
+    right: 650px;
     top: 300px;
 
 }
 #pepsi21price{
     position: absolute;
-    right: 820px;
+    right: 830px;
     top: 555px;
 
 }
 #freez1price{
     position: absolute;
-    left: 290px;
+    left: 280px;
     top: 555px;;
 
 }
@@ -2467,7 +2712,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 40%;
+    margin-left: 42%;
 } 
 /* nav{
     margin: 0;
