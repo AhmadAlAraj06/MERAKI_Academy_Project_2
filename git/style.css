@@ -934,7 +934,30 @@ header{
 }
 
 
+#arabicprice{
+    position: absolute;
+    left: -540px;
+    top: 180px;
 
+
+}
+#ramadanprice{
+    position: absolute;
+    left: -360px;
+    top: 180px;
+
+}
+#burgerprice{
+    position: absolute;
+    left: -180px;
+    top: 180px;
+
+}
+#qataifprice{
+    position: absolute;
+    left: 0px;
+    top: 180px;
+}
 
 
 
@@ -988,24 +1011,24 @@ header{
 
 #tomato{
     position: absolute;
-    right: 1010px;
+    right: 1015px;
     top: 265px;
 }
 #banana{
     position: absolute;
-    right: 815px;
+    right: 830px;
     top: 265px;
 
 }
 #strawb{
     position: absolute;
-    right: 625px;
+    right: 640px;
     top: 265px;
 
 }
 #orange{
     position: absolute;
-    right: 465px;
+    right: 480px;
     top: 265px;
 
 }
@@ -1021,19 +1044,65 @@ header{
 }
 #onion{
     position: absolute;
-    right: 645px;
+    right: 650px;
     top: 480px;
 
 }
 #span{
     position: absolute;
-    right: 455px;
+    right: 470px;
     top: 480px;
 
 }
 
 
 
+#tomatoprice{
+    position: absolute;
+    right: 995px;
+    top: 290px;
+
+}
+#bananaprice{
+    position: absolute;
+    right: 815px;
+    top: 290px;
+
+}
+#strawbprice{
+    position: absolute;
+    right: 645px;
+    top: 290px;
+
+}
+#orangeprice{
+    position: absolute;
+    position: absolute;
+    right: 460px;
+    top: 290px;
+}
+#lemonprice{
+    position: absolute;
+    right: 995px;
+    top: 500px;
+
+}
+#radishprice{
+    position: absolute;
+    right: 820px;
+    top: 500px;
+}
+#onionprice{
+    position: absolute;
+    right: 625px;
+    top: 500px;
+}
+#spanprice{
+    position: absolute;
+    position: absolute;
+    right: 455px;
+    top: 500px;
+}
 
 
 
@@ -1123,6 +1192,41 @@ header{
 
 
 
+
+#alarajprice{
+    position: absolute;
+    right: 1185px;
+    top: 300px;
+
+}
+#alarajtulprice{
+    position: absolute;
+    right: 1015px;
+    top: 300px;
+
+}
+#jawharaprice{
+    position: absolute;
+    right: 855px;
+    top: 300px;
+
+}
+#jawhara1price{
+    position: absolute;
+    right: 675px;
+    top: 300px;
+}
+#tamamcprice{
+    position: absolute;
+    right: 1200px;
+    top: 530px;
+
+}
+#tamamfprice{
+    position: absolute;
+    right: 1020px;
+    top: 530px;
+}
 
 
 
@@ -1275,6 +1379,76 @@ header{
 
 
 
+#eggs1price{
+    position: absolute;
+    left: 100px;
+    top: 290px;
+
+}
+#eggs2price{
+    position: absolute;
+    left: 280px;
+    top: 290px;
+
+}
+#hamodehshprice{
+    position: absolute;
+    left: 450px;
+    top: 745px;
+
+}
+#haritnashprice{
+    position: absolute;
+    left: 640px;
+    top: 745px;
+}
+#youghartmraiprice{
+    position: absolute;
+    left: 100px;
+    top: 745px;
+
+}
+#youghartmrai1price{
+    position: absolute;
+    left: 650px;
+    top: 515px;
+}
+#youghartmrai2price{
+    position: absolute;
+    left: 465px;
+    top: 515px;
+}
+#labanehprice{
+    position: absolute;
+    left: 460px;
+    top: 290px;
+
+}
+#labaneh1price{
+    position: absolute;
+    left: 280px;
+    top: 745px;
+
+}
+#alwaladprice{
+    position: absolute;
+    left: 640px;
+    top: 290px;
+
+}
+#alwalad1price{
+    position: absolute;
+    left: 105px;
+    top: 515px;
+
+}
+#almraicheeseprice{
+    position: absolute;
+    left: 280px;
+    top: 515px;
+
+}
+
 
 
 
@@ -1393,6 +1567,55 @@ header{
 
 
 
+
+
+
+#milk1price{
+    position: absolute;
+    right: 1205px;
+    top: 300px;
+}
+#milk2price{
+    position: absolute;
+    left: 285px;
+    top: 300px;
+
+}
+#milk3price{
+    position: absolute;
+    right: 805px;
+    top: 300px;
+
+}
+#milk4price{
+    position: absolute;
+    right: 655px;
+    top: 300px;
+
+}
+#powder1price{
+    position: absolute;
+    right: 830px;
+    top: 515px;
+
+}
+#powder2price{
+    position: absolute;
+    right: 650px;
+    top: 515px;
+
+}
+#chocolate1price{
+    position: absolute;
+    right: 1200px;
+    top: 515px;
+}
+#mango1price{
+    position: absolute;
+    right: 1020px;
+    top: 515px;
+
+}
 
 
 
