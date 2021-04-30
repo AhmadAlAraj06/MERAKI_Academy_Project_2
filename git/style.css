@@ -1674,50 +1674,43 @@ header{
 
 #beefb{
     position: absolute;
-    right: 1180px;
+    right: 1185px;
     top: 265px;
-    /* color: white; */
 }
 #chickenb{
     position: absolute;
     left: 280px;
     top: 265px;
-    /* color: white; */
 
 }
 #zinger{
     position: absolute;
     right: 855px;
     top: 265px;
-    /* color: white; */
 
 }
 #spizinger{
     position: absolute;
     right: 630px;
     top: 265px;
-    /* color: white; */
 
 }
 #corndnb{
     position: absolute;
     right: 820px;
     top: 475px;
-    /* color: white; */
 
 }
 #fries{
     position: absolute;
     left: 280px;
     top: 475px;;
-    /* color: white; */
 
 }
 #wedges{
     position: absolute;
     right: 1180px;
     top: 475px;
-    /* color: white; */
 }
 
 
@@ -1725,6 +1718,47 @@ header{
 
 
 
+
+#beefbprice{
+    position: absolute;
+    right: 1200px;
+    top: 290px;
+}
+#chickenbprice{
+    position: absolute;
+    left: 280px;
+    top: 290px;
+
+}
+#zingerprice{
+    position: absolute;
+    right: 830px;
+    top: 290px;
+
+}
+#spizingerprice{
+    position: absolute;
+    right: 650px;
+    top: 290px;
+
+}
+#corndnbprice{
+    position: absolute;
+    right: 825px;
+    top: 510px;
+
+}
+#friesprice{
+    position: absolute;
+    left: 280px;
+    top: 510px;
+
+}
+#wedgesprice{
+    position: absolute;
+    right: 1200px;
+    top: 510px;
+}
 
 
 
