@@ -2099,54 +2099,46 @@ header{
     position: absolute;
     right: 1180px;
     top: 265px;
-    /* color: white; */
 }
 #mangum12{
     position: absolute;
     left: 280px;
     top: 265px;
-    /* color: white; */
 
 }
 #mangum13{
     position: absolute;
     right: 800px;
     top: 265px;
-    /* color: white; */
 
 }
 #mangum14{
     position: absolute;
     right: 605px;
     top: 265px;
-    /* color: white; */
 
 }
 #mangum15{
     position: absolute;
     right: 790px;
     top: 525px;
-    /* color: white; */
 
 }
 #mangum16{
     position: absolute;
     left: 280px;
     top: 525px;;
-    /* color: white; */
 
 }
 #mangum17{
     position: absolute;
     right: 1160px;
     top: 525px;
-    /* color: white; */
 }
 #mangum18{
     position: absolute;
     left: 645px;
     top: 525px;
-    /* color: white; */
 }
 
 
@@ -2155,6 +2147,52 @@ header{
 
 
 
+
+#mangum11price{
+    position: absolute;
+    right: 1200px;
+    top: 320px;
+}
+#mangum12price{
+    position: absolute;
+    left: 280px;
+    top: 320px;
+
+}
+#mangum13price{
+    position: absolute;
+    right: 845px;
+    top: 320px;
+
+}
+#mangum14price{
+    position: absolute;
+    right: 650px;
+    top: 320px;
+
+}
+#mangum15price{
+    position: absolute;
+    right: 835px;
+    top: 580px;
+
+}
+#mangum16price{
+    position: absolute;
+    left: 280px;
+    top: 580px;;
+
+}
+#mangum17price{
+    position: absolute;
+    right: 1200px;
+    top: 580px;
+}
+#mangum18price{
+    position: absolute;
+    left: 648px;
+    top: 580px;
+}
 
 
 
