@@ -1958,50 +1958,86 @@ header{
     position: absolute;
     right: 1180px;
     top: 265px;
-    /* color: white; */
 }
 #nestleco{
     position: absolute;
     left: 280px;
     top: 265px;
-    /* color: white; */
-
 }
 #maroufco{
     position: absolute;
     right: 800px;
     top: 265px;
-    /* color: white; */
 
 }
 #marouf1co{
     position: absolute;
     right: 605px;
     top: 265px;
-    /* color: white; */
 
 }
 #ahmadte{
     position: absolute;
     right: 820px;
     top: 475px;
-    /* color: white; */
 
 }
 #liptonte{
     position: absolute;
     left: 290px;
     top: 475px;;
-    /* color: white; */
 
 }
 #karakte{
     position: absolute;
     right: 1190px;
     top: 475px;
-    /* color: white; */
 }
 
+
+
+
+
+
+#davidoffteprice{
+    position: absolute;
+    right: 1195px;
+    top: 300px;
+}
+#nestlecoprice{
+    position: absolute;
+    left: 280px;
+    top: 300px;
+}
+#maroufcoprice{
+    position: absolute;
+    right: 835px;
+    top: 300px;
+
+}
+#marouf1coprice{
+    position: absolute;
+    right: 650px;
+    top: 290px;
+
+}
+#ahmadteprice{
+    position: absolute;
+    right: 820px;
+    top: 505px;
+
+}
+#liptonteprice{
+    position: absolute;
+    left: 290px;
+    top: 505px;;
+
+}
+#karakteprice{
+    position: absolute;
+    right: 1190px;
+    top: 505px;
+}
 
 
 
