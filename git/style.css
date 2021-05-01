@@ -511,7 +511,7 @@ header{
 
 
 
-
+/* 
 
 #toffiprice{
     position: absolute;
@@ -732,7 +732,7 @@ header{
 
 
 
-
+ */
 
 
 
@@ -1229,7 +1229,7 @@ header{
 .name{
     height: 50px;
 }
-.product {
+.product{
     display: inline-block;
     margin: 30px;
     width: 150px;
@@ -2831,3 +2831,9 @@ nav ul li span:nth-child(3) {
 nav ul li span:nth-child(4) {
     --n: 4;
 }
+
+
+
+
+
+
