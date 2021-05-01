@@ -204,6 +204,58 @@ top: 10px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+#basket{
+    background-color: #9F0707;
+    color: white;
+}
+/* 
+#needsnnnnnoo{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+}
+#needsnnnnnoo:hover{
+    cursor: pointer ;
+}
+
+#needsnnnuutt{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+}
+#needsnnnuutt:hover{
+    cursor: pointer ;
+}
+
+
+#needsrittrr{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+}
+#needsrittrr:hover{
+    cursor: pointer ;
+}
+
+
 #needswwwwwwaa{
     color: white;
     font-size: 28px;
@@ -392,8 +444,9 @@ top: 10px;
     top: 12px;
 }
 #needstoffi:hover{
-    cursor: pointer ;
+    cursor: pointer ; 
 }
+*/
 #needs{
     color: white;
     padding-top: 50px;
