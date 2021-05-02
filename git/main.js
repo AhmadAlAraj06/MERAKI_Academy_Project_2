@@ -14,6 +14,10 @@ $(document).ready(function(){
   $("#drinke").hide();
   $("#waterpr").hide();
   $("#toffiproduct").hide();
+  $("#feedback").hide();
+
+
+  
   // $("#tobl11product").hide();
   // $("#tableproduct").hide();
   // $("#bready").hide();
@@ -188,6 +192,38 @@ $(document).ready(function(){
     $("#prodoption").show();
 
   });
+  $("#feedbacki").click(function(){
+    
+    $("#prodoption").hide();
+    $("#feedback").show();
+
+  });
+  $("#needsfeedback").click(function(){
+    
+    $("#feedback").hide();
+    $("#prodoption").show();
+
+  });
+
+  $("#needs").click(function(){
+    
+    $("#prodoption").hide();
+    $("#main").show();
+
+  });
+
+  
+
+  
+
+
+
+
+
+
+
+
+
 //   $(".tof").click(function(){
     
 //     $("#snackcandy").hide();
