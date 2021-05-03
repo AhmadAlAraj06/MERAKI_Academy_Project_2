@@ -1,3 +1,4 @@
+let price = 0;
 
 $(document).ready(function(){
   $("#prodoption").hide();
@@ -17,6 +18,7 @@ $(document).ready(function(){
   $("#feedback").hide();
   $("#feedbackkkk").hide();
   $("#bbbasket").hide();
+  $("#cheeeckout").hide();
 
 
   
@@ -230,8 +232,8 @@ $(document).ready(function(){
   $("#basketii").click(function(){
     
     $("#prodoption").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
-
 
   });
   $("#needsbaskettt").click(function(){
@@ -243,6 +245,7 @@ $(document).ready(function(){
   $("#basketii1").click(function(){
     
     $("#snackcandy").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -250,6 +253,7 @@ $(document).ready(function(){
   $("#basketii2").click(function(){
     
     $("#breadindex").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -257,6 +261,7 @@ $(document).ready(function(){
   $("#basketii3").click(function(){
     
     $("#vegetabless").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -264,6 +269,7 @@ $(document).ready(function(){
   $("#basketii4").click(function(){
     
     $("#Deli").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -271,6 +277,7 @@ $(document).ready(function(){
   $("#basketii5").click(function(){
     
     $("#Dairyeggs").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -278,6 +285,7 @@ $(document).ready(function(){
   $("#basketii6").click(function(){
     
     $("#milkn").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -285,6 +293,7 @@ $(document).ready(function(){
   $("#basketii7").click(function(){
     
     $("#frooozen").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -292,6 +301,7 @@ $(document).ready(function(){
   $("#basketii8").click(function(){
     
     $("#breakfastc").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -300,6 +310,7 @@ $(document).ready(function(){
   $("#basketii9").click(function(){
     
     $("#coffetea").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -307,6 +318,7 @@ $(document).ready(function(){
   $("#basketii10").click(function(){
     
     $("#icecreamma").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -315,6 +327,7 @@ $(document).ready(function(){
   $("#basketii11").click(function(){
     
     $("#drinke").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
@@ -323,18 +336,27 @@ $(document).ready(function(){
   $("#basketii12").click(function(){
     
     $("#waterpr").hide();
+    $("#price1").html(price);
     $("#bbbasket").show();
 
 
   });
   
-  
-  
-  
-  
-  
-  
+  $("#checkoutt").click(function(){
+    
+    $("#bbbasket").hide();
+    $("#cheeeckout").show();
 
+  });
+  $("#needschhheckout").click(function(){
+    
+    $("#cheeeckout").hide();
+    $("#bbbasket").show();
+
+  });
+  
+  
+  
 
 
 
@@ -342,8 +364,9 @@ $(document).ready(function(){
 
 const myCart = $("#bbbasket")
   $("#basket_basiket").click(function(){
+    price+=1.5
    const bbasket = $(`
-   <div class="product ">
+   <div class="product">
    <img src="toffi.jpg">
    <div class="name">Storck Toffife</div>
    <div class="price">JOD 1.50</div>
@@ -353,6 +376,7 @@ const myCart = $("#bbbasket")
   });
   const myCart1 = $("#bbbasket")
   $("#basket_basiket1").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product ">
    <img src="tobl.jpg">
@@ -365,6 +389,7 @@ const myCart = $("#bbbasket")
 
   const myCart2 = $("#bbbasket")
   $("#basket_basiket2").click(function(){
+    price+=1.5
    const bbasket = $(`
    <div class="product ">
    <img src="ritter123.jpg">
@@ -378,6 +403,7 @@ const myCart = $("#bbbasket")
 
   const myCart3 = $("#bbbasket")
   $("#basket_basiket3").click(function(){
+    price+=0.90
    const bbasket = $(`
    <div class="product gooo">
    <img src="nutella 12.jpg">
@@ -392,6 +418,7 @@ const myCart = $("#bbbasket")
 
   const myCart4 = $("#bbbasket")
   $("#basket_basiket4").click(function(){
+    price+=0.25
    const bbasket = $(`
    <div class="product ">
    <img src="no 1 12.jpg">
@@ -406,6 +433,7 @@ const myCart = $("#bbbasket")
 
   const myCart5 = $("#bbbasket")
   $("#basket_basiket5").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product">
    <img src="nuttela bready.jpg">
@@ -420,6 +448,7 @@ const myCart = $("#bbbasket")
 
   const myCart6 = $("#bbbasket")
   $("#basket_basiket6").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product">
    <img src="rashen.jpg" >
@@ -432,6 +461,7 @@ const myCart = $("#bbbasket")
 
   const myCart7 = $("#bbbasket")
   $("#basket_basiket7").click(function(){
+    price+=1.99
    const bbasket = $(`
    <div class="product ">
    <img src="skittles12.jpg">
@@ -444,6 +474,7 @@ const myCart = $("#bbbasket")
 
   const myCart8 = $("#bbbasket")
   $("#basket_basiket8").click(function(){
+    price+=1.99
    const bbasket = $(`
    <div class="product">
    <img src="bounty12.jpg">
@@ -457,6 +488,7 @@ const myCart = $("#bbbasket")
 
   const myCart9 = $("#bbbasket")
   $("#basket_basiket9").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="bubbly.jpeg">
@@ -469,6 +501,7 @@ const myCart = $("#bbbasket")
 
   const myCart10 = $("#bbbasket")
   $("#basket_basiket10").click(function(){
+    price+=0.40
    const bbasket = $(`
    <div class="product">
     <img src="m and m 123.jpg">
@@ -481,6 +514,7 @@ const myCart = $("#bbbasket")
 
   const myCart11 = $("#bbbasket")
   $("#basket_basiket11").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="cake a.jpg">
@@ -493,6 +527,7 @@ const myCart = $("#bbbasket")
 
   const myCart12 = $("#bbbasket")
   $("#basket_basiket12").click(function(){
+    price+=0.29
    const bbasket = $(`
    <div class="product">
    <img src="flake.jpg">
@@ -506,6 +541,7 @@ const myCart = $("#bbbasket")
 
   const myCart13 = $("#bbbasket")
   $("#basket_basiket13").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product">
    <img src="oreo.jpg">
@@ -518,6 +554,7 @@ const myCart = $("#bbbasket")
 
   const myCart14 = $("#bbbasket")
   $("#basket_basiket14").click(function(){
+    price+=0.29
    const bbasket = $(`
    <div class="product">
    <img src="wafe up.jpeg">
@@ -530,6 +567,7 @@ const myCart = $("#bbbasket")
 
   const myCart15 = $("#bbbasket")
   $("#basket_basiket15").click(function(){
+    price+=1.99
    const bbasket = $(`
    <div class="product mennn">
    <img src="mentos12.jpg">
@@ -543,6 +581,7 @@ const myCart = $("#bbbasket")
 
   const myCart16 = $("#bbbasket")
   $("#basket_basiket16").click(function(){
+    price+=4.99
    const bbasket = $(`
    <div class="product">
    <img src="merci.jpg">
@@ -556,6 +595,7 @@ const myCart = $("#bbbasket")
 
   const myCart17 = $("#bbbasket")
   $("#basket_basiket17").click(function(){
+    price+=0.29
    const bbasket = $(`
    <div class="product">
    <img src="oreo 2.jpg">
@@ -568,6 +608,7 @@ const myCart = $("#bbbasket")
 
   const myCart18 = $("#bbbasket")
   $("#basket_basiket18").click(function(){
+    price+=0.29
    const bbasket = $(`
    <div class="product">
    <img src="doritos 1.jpg">
@@ -581,6 +622,7 @@ const myCart = $("#bbbasket")
 
   const myCart19 = $("#bbbasket")
   $("#basket_basiket19").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product">
    <img src="pringles12.jpg">
@@ -593,6 +635,7 @@ const myCart = $("#bbbasket")
 
   const myCart20 = $("#bbbasket")
   $("#basket_basiket20").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="stix 1.jpg">
@@ -606,6 +649,7 @@ const myCart = $("#bbbasket")
 
   const myCart21 = $("#bbbasket")
   $("#basket_basiket21").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="galaxy.jpg">
@@ -618,6 +662,7 @@ const myCart = $("#bbbasket")
 
   const myCart22 = $("#bbbasket")
   $("#basket_basiket22").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="garden12.png">
@@ -631,6 +676,7 @@ const myCart = $("#bbbasket")
 
   const myCart23 = $("#bbbasket")
   $("#basket_basiket23").click(function(){
+    price+=1.49
    const bbasket = $(`
    <div class="product">
    <img src="harbio12.jpg">
@@ -643,6 +689,7 @@ const myCart = $("#bbbasket")
 
   const myCart24 = $("#bbbasket")
   $("#basket_basiket24").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="kinder kid.jpg">
@@ -655,6 +702,7 @@ const myCart = $("#bbbasket")
   
   const myCart25 = $("#bbbasket")
   $("#basket_basiket25").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="kitkat.jpg">
@@ -667,6 +715,7 @@ const myCart = $("#bbbasket")
 
   const myCart26 = $("#bbbasket")
   $("#basket_basiket26").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="kinder bueno.jpg">
@@ -679,6 +728,7 @@ const myCart = $("#bbbasket")
 
   const myCart27 = $("#bbbasket")
   $("#basket_basiket27").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="kinder joy12.jpg">
@@ -692,6 +742,7 @@ const myCart = $("#bbbasket")
 
   const myCart28 = $("#bbbasket")
   $("#basket_basiket28").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="lays 1.jpg">
@@ -704,6 +755,7 @@ const myCart = $("#bbbasket")
 
   const myCart29 = $("#bbbasket")
   $("#basket_basiket29").click(function(){
+    price+=1.49
    const bbasket = $(`
    <div class="product">
    <img src="lindt.jpg">
@@ -716,6 +768,7 @@ const myCart = $("#bbbasket")
 
   const myCart30 = $("#bbbasket")
   $("#basket_basiket30").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
     <img src="lion.jpg">
@@ -729,6 +782,7 @@ const myCart = $("#bbbasket")
 
   const myCart31 = $("#bbbasket")
   $("#basket_basiket31").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="loacker1.jpeg">
@@ -742,6 +796,7 @@ const myCart = $("#bbbasket")
 
   const myCart32 = $("#bbbasket")
   $("#basket_basiket32").click(function(){
+    price+=1.49
    const bbasket = $(`
    <div class="product">
    <img src="capr12.jpg">
@@ -755,6 +810,7 @@ const myCart = $("#bbbasket")
 
   const myCart33 = $("#bbbasket")
   $("#basket_basiket33").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="mr ch.jpg">
@@ -767,6 +823,7 @@ const myCart = $("#bbbasket")
 
   const myCart34 = $("#bbbasket")
   $("#basket_basiket34").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="cheetos.jpg">
@@ -779,6 +836,7 @@ const myCart = $("#bbbasket")
 
   const myCart35 = $("#bbbasket")
   $("#basket_basiket35").click(function(){
+    price+=1.49
    const bbasket = $(`
    <div class="product">
    <img src="mrdig.jpeg">
@@ -792,6 +850,7 @@ const myCart = $("#bbbasket")
 
   const myCart36 = $("#bbbasket")
   $("#basket_basiket36").click(function(){
+    price+=1.99
    const bbasket = $(`
    <div class="product poppp">
    <img src="pop corn12.jpg">
@@ -806,6 +865,7 @@ const myCart = $("#bbbasket")
 
   const myCart37 = $("#bbbasket")
   $("#basket_basiket37").click(function(){
+    price+=0.50
    const bbasket = $(`
    <div class="product brrr">
    <img src="arabic bread.jpg">
@@ -817,6 +877,7 @@ const myCart = $("#bbbasket")
   });
   const myCart38 = $("#bbbasket")
   $("#basket_basiket38").click(function(){
+    price+=0.50
    const bbasket = $(`
    <div class="product">
    <img src="ramadanbread.jpg">
@@ -828,6 +889,7 @@ const myCart = $("#bbbasket")
   });
   const myCart39 = $("#bbbasket")
   $("#basket_basiket39").click(function(){
+    price+=0.40
    const bbasket = $(`
    <div class="product">
    <img src="burger1.jpg">
@@ -837,8 +899,22 @@ const myCart = $("#bbbasket")
  `)
  myCart39.append(bbasket)
   });
+  
+  const myCart40 = $("#bbbasket")
+  $("#basket_basiket40").click(function(){
+    price+=0.60
+   const bbasket = $(`
+   <div class="product">
+   <img src="qataif123.jpg">
+   <div class="name">qataif</div>
+   <div class="price">JOD 0.60</div>
+ </div>
+ `)
+ myCart40.append(bbasket)
+  });
   const myCart41 = $("#bbbasket")
   $("#basket_basiket41").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product tommm">
    <img src="tomato.jpg">
@@ -851,6 +927,7 @@ const myCart = $("#bbbasket")
 
   const myCart42 = $("#bbbasket")
   $("#basket_basiket42").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="banana.jpg">
@@ -862,6 +939,7 @@ const myCart = $("#bbbasket")
   });
   const myCart43 = $("#bbbasket")
   $("#basket_basiket43").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="strawb.jpg" >
@@ -873,6 +951,7 @@ const myCart = $("#bbbasket")
   });
   const myCart44 = $("#bbbasket")
   $("#basket_basiket44").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="orange.jpg">
@@ -884,6 +963,7 @@ const myCart = $("#bbbasket")
   });
   const myCart45 = $("#bbbasket")
   $("#basket_basiket45").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="lemon.jpg">
@@ -895,6 +975,7 @@ const myCart = $("#bbbasket")
   });
   const myCart46 = $("#bbbasket")
   $("#basket_basiket46").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="radish.jpg">
@@ -906,6 +987,7 @@ const myCart = $("#bbbasket")
   });
   const myCart47 = $("#bbbasket")
   $("#basket_basiket47").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="onion.jpg" >
@@ -917,6 +999,7 @@ const myCart = $("#bbbasket")
   });
   const myCart48 = $("#bbbasket")
   $("#basket_basiket48").click(function(){
+    price+=0.59
    const bbasket = $(`
    <div class="product">
    <img src="span.jpg">
@@ -930,6 +1013,7 @@ const myCart = $("#bbbasket")
 
   const myCart49 = $("#bbbasket")
   $("#basket_basiket49").click(function(){
+    price+=14.99
    const bbasket = $(`
    <div class="product aaaaa">
    <img src="mur alaraj.jpg" >
@@ -941,6 +1025,7 @@ const myCart = $("#bbbasket")
   });
   const myCart50 = $("#bbbasket")
   $("#basket_basiket50").click(function(){
+    price+=11.99
    const bbasket = $(`
    <div class="product">
    <img src="tul alaraj.jpg">
@@ -952,6 +1037,7 @@ const myCart = $("#bbbasket")
   });
   const myCart51 = $("#bbbasket")
   $("#basket_basiket51").click(function(){
+    price+=8.99
    const bbasket = $(`
    <div class="product">
    <img src="jawhara.jpg">
@@ -963,6 +1049,7 @@ const myCart = $("#bbbasket")
   });
   const myCart52 = $("#bbbasket")
   $("#basket_basiket52").click(function(){
+    price+=5.99
    const bbasket = $(`
    <div class="product">
    <img src="jawhara1.jpg">
@@ -974,6 +1061,7 @@ const myCart = $("#bbbasket")
   });
   const myCart53 = $("#bbbasket")
   $("#basket_basiket53").click(function(){
+    price+=1.59
    const bbasket = $(`
    <div class="product">
    <img src="tamam chicken.jpg" >
@@ -985,6 +1073,7 @@ const myCart = $("#bbbasket")
   });
   const myCart54 = $("#bbbasket")
   $("#basket_basiket54").click(function(){
+    price+=3.49
    const bbasket = $(`
    <div class="product">
       <img src="tamam fillet.jpg">
@@ -998,7 +1087,8 @@ const myCart = $("#bbbasket")
 
   const myCart55 = $("#bbbasket")
   $("#basket_basiket55").click(function(){
-   const bbasket = $(`
+    price+=1.59
+    const bbasket = $(`
    <div class="product egggg">
       <img src="eggsoval.jpg">
       <div class="name"> Eggs  </div>
@@ -1009,6 +1099,7 @@ const myCart = $("#bbbasket")
   });
   const myCart56 = $("#bbbasket")
   $("#basket_basiket56").click(function(){
+    price+=1.59
    const bbasket = $(`
    <div class="product">
    <img src="eggsalmawa.jpg">
@@ -1020,6 +1111,7 @@ const myCart = $("#bbbasket")
   });
   const myCart57 = $("#bbbasket")
   $("#basket_basiket57").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="hamodehsh.jpg" >
@@ -1031,6 +1123,7 @@ const myCart = $("#bbbasket")
   });
   const myCart58 = $("#bbbasket")
   $("#basket_basiket58").click(function(){
+    price+=0.49
    const bbasket = $(`
    <div class="product">
    <img src="haritnash.jpg">
@@ -1042,6 +1135,7 @@ const myCart = $("#bbbasket")
   });
   const myCart59 = $("#bbbasket")
   $("#basket_basiket59").click(function(){
+    price+=0.75
    const bbasket = $(`
    <div class="product">
    <img src="youghartmrai.jpg">
@@ -1053,6 +1147,7 @@ const myCart = $("#bbbasket")
   });
   const myCart60 = $("#bbbasket")
   $("#basket_basiket60").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product">
    <img src="youghartmrai1.jpg_480Wx480H">
@@ -1064,6 +1159,7 @@ const myCart = $("#bbbasket")
   });
   const myCart61 = $("#bbbasket")
   $("#basket_basiket61").click(function(){
+    price+=0.99
    const bbasket = $(`
    <div class="product">
    <img src="youghartmrai2.jpeg" >
@@ -1075,16 +1171,19 @@ const myCart = $("#bbbasket")
   });
   const myCart62 = $("#bbbasket")
   $("#basket_basiket62").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
-      <img src="labaneh.jpg">
-      <div class="name">Labaneh  </div>
+   <img src="labaneh.jpg">
+   <div class="name">Labaneh  </div>
+   <div class="price">JOD 1.00</div>
  </div>
  `)
  myCart62.append(bbasket)
   });
   const myCart63 = $("#bbbasket")
   $("#basket_basiket63").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="labaneh1.jpg">
@@ -1096,6 +1195,7 @@ const myCart = $("#bbbasket")
   });
   const myCart64 = $("#bbbasket")
   $("#basket_basiket64").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="abu alwalad.jpg">
@@ -1107,6 +1207,7 @@ const myCart = $("#bbbasket")
   });
   const myCart65 = $("#bbbasket")
   $("#basket_basiket65").click(function(){
+    price+=1.49
    const bbasket = $(`
    <div class="product">
    <img src="abu alwalad1.jpg" >
@@ -1118,6 +1219,7 @@ const myCart = $("#bbbasket")
   });
   const myCart66 = $("#bbbasket")
   $("#basket_basiket66").click(function(){
+    price+=1.99
    const bbasket = $(`
    <div class="product">
    <img src="almraicheese.jpg">
@@ -1131,6 +1233,7 @@ const myCart = $("#bbbasket")
 
   const myCart67 = $("#bbbasket")
   $("#basket_basiket67").click(function(){
+    price+=3.00
    const bbasket = $(`
    <div class="product alammama">
    <img src="almarai milk.jpg">
@@ -1142,6 +1245,7 @@ const myCart = $("#bbbasket")
   });
   const myCart68 = $("#bbbasket")
   $("#basket_basiket68").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="almarai milk 1.jpg">
@@ -1153,6 +1257,7 @@ const myCart = $("#bbbasket")
   });
   const myCart69 = $("#bbbasket")
   $("#basket_basiket69").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="hamodeh milk.jpg">
@@ -1164,6 +1269,7 @@ const myCart = $("#bbbasket")
   });
   const myCart70 = $("#bbbasket")
   $("#basket_basiket70").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="nadec milk.jpg">
@@ -1175,6 +1281,7 @@ const myCart = $("#bbbasket")
   });
   const myCart71 = $("#bbbasket")
   $("#basket_basiket71").click(function(){
+    price+=5.00
    const bbasket = $(`
    <div class="product">
    <img src="almarai powder milk 2.jpg">
@@ -1186,6 +1293,7 @@ const myCart = $("#bbbasket")
   });
   const myCart72 = $("#bbbasket")
   $("#basket_basiket72").click(function(){
+    price+=5.00
    const bbasket = $(`
    <div class="product">
    <img src="nido.jpg">
@@ -1197,6 +1305,7 @@ const myCart = $("#bbbasket")
   });
   const myCart73 = $("#bbbasket")
   $("#basket_basiket73").click(function(){
+    price+=0.50
    const bbasket = $(`
    <div class="product">
    <img src="almarai chocolate.jpg">
@@ -1208,6 +1317,7 @@ const myCart = $("#bbbasket")
   });
   const myCart74 = $("#bbbasket")
   $("#basket_basiket74").click(function(){
+    price+=0.50
    const bbasket = $(`
    <div class="product">
    <img src="almarai mango.jpg">
@@ -1221,6 +1331,7 @@ const myCart = $("#bbbasket")
 
   const myCart75 = $("#bbbasket")
   $("#basket_basiket75").click(function(){
+    price+=2.50
    const bbasket = $(`
    <div class="product bbbbbbb">
    <img src="beef burger12.jpeg">
@@ -1231,6 +1342,7 @@ const myCart = $("#bbbasket")
   });
   const myCart76 = $("#bbbasket")
   $("#basket_basiket76").click(function(){
+    price+=2.50
    const bbasket = $(`
    <div class="product">
    <img src="chicken burger.jpg">
@@ -1242,6 +1354,7 @@ const myCart = $("#bbbasket")
   });
   const myCart77 = $("#bbbasket")
   $("#basket_basiket77").click(function(){
+    price+=3.00
    const bbasket = $(`
    <div class="product">
    <img src="zinger.jpg">
@@ -1253,6 +1366,7 @@ const myCart = $("#bbbasket")
   });
   const myCart78 = $("#bbbasket")
   $("#basket_basiket78").click(function(){
+    price+=3.00
    const bbasket = $(`
    <div class="product">
    <img src="zinger spicy.jpg">
@@ -1264,6 +1378,7 @@ const myCart = $("#bbbasket")
   });
   const myCart79 = $("#bbbasket")
   $("#basket_basiket79").click(function(){
+    price+=4.00
    const bbasket = $(`
    <div class="product">
    <img src="cordnblue.jpg">
@@ -1275,6 +1390,7 @@ const myCart = $("#bbbasket")
   });
   const myCart80 = $("#bbbasket")
   $("#basket_basiket80").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="french fries.jpg">
@@ -1286,6 +1402,7 @@ const myCart = $("#bbbasket")
   });
   const myCart81 = $("#bbbasket")
   $("#basket_basiket81").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="widges12.jpg">
@@ -1299,6 +1416,7 @@ const myCart = $("#bbbasket")
 
   const myCart82 = $("#bbbasket")
   $("#basket_basiket82").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product ccccccc">
    <img src="corn flex.jpeg">
@@ -1310,6 +1428,7 @@ const myCart = $("#bbbasket")
   });
   const myCart83 = $("#bbbasket")
   $("#basket_basiket83").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="corn flex 122.jpg">
@@ -1321,6 +1440,7 @@ const myCart = $("#bbbasket")
   });
   const myCart84 = $("#bbbasket")
   $("#basket_basiket84").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="corn flex2.jpg">
@@ -1332,6 +1452,7 @@ const myCart = $("#bbbasket")
   });
   const myCart85 = $("#bbbasket")
   $("#basket_basiket85").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="corn flex3.jpg">
@@ -1343,6 +1464,7 @@ const myCart = $("#bbbasket")
   });
   const myCart86 = $("#bbbasket")
   $("#basket_basiket86").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="nestle1.jpg">
@@ -1354,6 +1476,7 @@ const myCart = $("#bbbasket")
   });
   const myCart87 = $("#bbbasket")
   $("#basket_basiket87").click(function(){
+    price+=6.00
    const bbasket = $(`
    <div class="product">
    <img src="honey.png">
@@ -1365,6 +1488,7 @@ const myCart = $("#bbbasket")
   });
   const myCart88 = $("#bbbasket")
   $("#basket_basiket88").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="halawa.jpg">
@@ -1377,6 +1501,7 @@ const myCart = $("#bbbasket")
   
   const myCart89 = $("#bbbasket")
   $("#basket_basiket89").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product cofffff">
    <img src="davidoff.jpg">
@@ -1388,10 +1513,11 @@ const myCart = $("#bbbasket")
   });
   const myCart90 = $("#bbbasket")
   $("#basket_basiket90").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="nescafe1.jpg">
-   <div class="name">Corn Flex  </div>
+   <div class="name">Nescafe</div>
    <div class="price">JOD 3.50</div>
  </div>
  `)
@@ -1399,10 +1525,11 @@ const myCart = $("#bbbasket")
   });
   const myCart91 = $("#bbbasket")
   $("#basket_basiket91").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="marouf.jpg">
-   <div class="name">Corn Flex </div>
+   <div class="name">Marouf Coffee  </div>
    <div class="price">JOD 3.50</div>
  </div>
  `)
@@ -1410,44 +1537,48 @@ const myCart = $("#bbbasket")
   });
   const myCart92 = $("#bbbasket")
   $("#basket_basiket92").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
-        <img src="marouf1.jpg">
-        <div class="name">Corn Flex </div>
-        <div class="price">JOD 3.50</div>
+   <img src="marouf1.jpg">
+   <div class="name">Marouf Coffee  </div>
+   <div class="price">JOD 3.50</div>
  </div>
  `)
  myCart92.append(bbasket)
   });
   const myCart93 = $("#bbbasket")
   $("#basket_basiket93").click(function(){
+    price+=3.00
    const bbasket = $(`
    <div class="product">
    <img src="ahmadte.jpg">
-   <div class="name">Fitness Cereal Bar With Chocolate  </div>
-   <div class="price">JOD 1.00</div>
+   <div class="name">Ahmad Tea </div>
+   <div class="price">JOD 3.00</div>
  </div>
  `)
  myCart93.append(bbasket)
   });
   const myCart94 = $("#bbbasket")
   $("#basket_basiket94").click(function(){
+    price+=3.00
    const bbasket = $(`
    <div class="product">
    <img src="lipton.jpg">
-   <div class="name">Original Honey</div>
-   <div class="price">JOD 6.00</div>
+   <div class="name">Lipton Tea </div>
+   <div class="price">JOD 3.00</div>
  </div>
  `)
  myCart94.append(bbasket)
   });
   const myCart95 = $("#bbbasket")
   $("#basket_basiket95").click(function(){
+    price+=2.50
    const bbasket = $(`
    <div class="product">
    <img src="karakte.jpg">
-   <div class="name">Durra Halawa</div>
-   <div class="price">JOD 1.50</div>
+   <div class="name">Karak Tea</div>
+   <div class="price">JOD 2.50</div>
  </div>
  `)
  myCart95.append(bbasket)
@@ -1457,6 +1588,7 @@ const myCart = $("#bbbasket")
 
   const myCart96 = $("#bbbasket")
   $("#basket_basiket96").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product mmmmmm">
    <img src="mangum sea salt.jpg">
@@ -1468,6 +1600,7 @@ const myCart = $("#bbbasket")
   });
   const myCart97 = $("#bbbasket")
   $("#basket_basiket97").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum7.jpg">
@@ -1479,6 +1612,7 @@ const myCart = $("#bbbasket")
   });
   const myCart98 = $("#bbbasket")
   $("#basket_basiket98").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum6.jpg">
@@ -1490,6 +1624,7 @@ const myCart = $("#bbbasket")
   });
   const myCart99 = $("#bbbasket")
   $("#basket_basiket99").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum milk.webp">
@@ -1501,28 +1636,31 @@ const myCart = $("#bbbasket")
   });
   const myCart100 = $("#bbbasket")
   $("#basket_basiket100").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum2.jpg">
    <div class="name">Mangum Double Chocolate & Strawberry  </div>
-   <div class="price">JOD 1.00</div>
+   <div class="price">JOD 1.50</div>
  </div>
  `)
  myCart100.append(bbasket)
   });
   const myCart101 = $("#bbbasket")
   $("#basket_basiket101").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum3.jpg">
    <div class="name"> Mangum Double Mochaccino</div>
-   <div class="price">JOD 6.00</div>
+   <div class="price">JOD 1.50</div>
  </div>
  `)
  myCart101.append(bbasket)
   });
   const myCart102 = $("#bbbasket")
   $("#basket_basiket102").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum4.jpg">
@@ -1534,6 +1672,7 @@ const myCart = $("#bbbasket")
   });
   const myCart103 = $("#bbbasket")
   $("#basket_basiket103").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="mangum8.jpg">
@@ -1549,6 +1688,7 @@ const myCart = $("#bbbasket")
 
   const myCart104 = $("#bbbasket")
   $("#basket_basiket104").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product tangggggg">
    <img src="tang11.jpg">
@@ -1560,17 +1700,19 @@ const myCart = $("#bbbasket")
   });
   const myCart105 = $("#bbbasket")
   $("#basket_basiket105").click(function(){
+    price+=3.50
    const bbasket = $(`
    <div class="product">
    <img src="vimto12.jpg">
    <div class="name"> Vimto </div>
-   <div class="price">JOD 0.60</div>
+   <div class="price">JOD 3.50</div>
  </div>
  `)
  myCart105.append(bbasket)
   });
   const myCart106 = $("#bbbasket")
   $("#basket_basiket106").click(function(){
+    price+=0.25
    const bbasket = $(`
    <div class="product">
    <img src="cococola12.jpg">
@@ -1582,17 +1724,19 @@ const myCart = $("#bbbasket")
   });
   const myCart107 = $("#bbbasket")
   $("#basket_basiket107").click(function(){
+    price+=0.60
    const bbasket = $(`
    <div class="product">
    <img src="pepsi2222.jpg">
    <div class="name"> Pepsi </div>
-   <div class="price">JOD 3.50</div>
+   <div class="price">JOD 0.60</div>
  </div>
  `)
  myCart107.append(bbasket)
   });
   const myCart108 = $("#bbbasket")
   $("#basket_basiket108").click(function(){
+    price+=0.30
    const bbasket = $(`
    <div class="product">
    <img src="pepsi11.jpg">
@@ -1604,6 +1748,7 @@ const myCart = $("#bbbasket")
   });
   const myCart109 = $("#bbbasket")
   $("#basket_basiket109").click(function(){
+    price+=0.70
    const bbasket = $(`
    <div class="product">
    <img src="freez.jpg">
@@ -1615,6 +1760,7 @@ const myCart = $("#bbbasket")
   });
   const myCart110 = $("#bbbasket")
   $("#basket_basiket110").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="redbul111.jpg">
@@ -1626,6 +1772,7 @@ const myCart = $("#bbbasket")
   });
   const myCart111 = $("#bbbasket")
   $("#basket_basiket111").click(function(){
+    price+=1.00
    const bbasket = $(`
    <div class="product">
    <img src="monster.jpg">
@@ -1639,6 +1786,7 @@ const myCart = $("#bbbasket")
 
   const myCart112 = $("#bbbasket")
   $("#basket_basiket112").click(function(){
+    price+=0.50
    const bbasket = $(`
    <div class="product wwwwwwwwwater">
    <img src="water1.jpg">
@@ -1651,6 +1799,7 @@ const myCart = $("#bbbasket")
   
   const myCart113 = $("#bbbasket")
   $("#basket_basiket113").click(function(){
+    price+=0.25
    const bbasket = $(`
    <div class="product">
    <img src="arwa water.jpeg">
@@ -1663,6 +1812,7 @@ const myCart = $("#bbbasket")
   
   const myCart114 = $("#bbbasket")
   $("#basket_basiket114").click(function(){
+    price+=0.25
    const bbasket = $(`
    <div class="product">
    <img src="water3.jpg">
@@ -1675,6 +1825,7 @@ const myCart = $("#bbbasket")
   
   const myCart115 = $("#bbbasket")
   $("#basket_basiket115").click(function(){
+    price+=1.50
    const bbasket = $(`
    <div class="product">
    <img src="water 2.jpg">

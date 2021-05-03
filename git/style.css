@@ -447,6 +447,17 @@ top: 10px;
     cursor: pointer ; 
 }
 */
+#needschhheckout{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+}
+#needschhheckout:hover{
+    cursor: pointer ; 
+}
+
 #needsbaskettt{
     color: white;
     font-size: 28px;
@@ -623,7 +634,12 @@ top: 10px;
 
 
 
-
+#price1{
+            margin-left: 75%;
+          font-size: 30px;
+          position: absolute;
+          top: 87%;
+}
 #bbbbbasket{
     color: white;
 position: absolute;
@@ -632,9 +648,42 @@ top: 35px;
       font-size: 30px;
 
 }
+#ccchheckout{
+    color: white;
+position: absolute;
+top: 35px;
+        margin-left: 42%;
+      font-size: 30px;
 
-
-
+}
+#ppprroduct{
+color: rgb(0, 0, 0);
+font-size: 28px;
+position: absolute;
+left: 75px;
+top: 25px;
+}
+#ppprice{
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    position: absolute;
+    left: 565px;
+    top: 25px;
+    }
+    #quaniti{
+        color: rgb(0, 0, 0);
+        font-size: 28px;
+        position: absolute;
+        left: 725px;
+    top: 25px;
+        }
+        #removeee{
+            color: rgb(0, 0, 0);
+            font-size: 28px;
+            position: absolute;
+            left: 970px;
+            top: 25px;
+            }
 #Cate{
     color: white;
 
@@ -762,6 +811,19 @@ height: 150px;
 position:absolute;
 top: 700px;
 }
+
+#titllle{
+    background-color: #ffffff;
+    background-position:center;
+    background-size: cover;
+    width: 83%;
+    height: 90px;
+    position: absolute;
+    top: 20%;
+    left: 110px;
+}
+
+
 header{
     background-color: #9F0707;
     background-position:center;
@@ -1721,6 +1783,7 @@ header{
     left: 0px;
     top: 180px;
 } */
+
 
 
 #container{
@@ -3358,7 +3421,23 @@ nav ul li span:nth-child(4) {
     padding: 12px 12px 12px 0;    
     display: inline-block;    
   }    
+  input[type=checkout] {    
+    background-color:#9F0707;    
+    color: white;    
+    padding: 12px 20px;    
+    border: none;    
+    border-radius: 4px;    
+    cursor: pointer;    
+    float: right;   
+    position: absolute;
+    top: 87%;
+    left: 3%;
+    width: 100px; 
+  }    
 
+  input[type=checkout]:hover {    
+    background-color: #2e9133;    
+  }    
   input[type=submit] {    
     background-color:#9F0707;    
     color: white;    
@@ -3367,6 +3446,7 @@ nav ul li span:nth-child(4) {
     border-radius: 4px;    
     cursor: pointer;    
     float: right;    
+
   }    
 
   input[type=submit]:hover {    
