@@ -9,6 +9,24 @@
 } */
 
 
+
+    
+
+
+
+
+
+
+
+button {
+    -webkit-appearance: none;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+
+
 #googleMap{
     width:50%;
     height:400px;
@@ -204,6 +222,7 @@ top: 30%;
     left: 138px;
     top: 275px;
     width: 100px;
+    height: 38px;
 }
 #tea{
     position: absolute;
@@ -663,16 +682,19 @@ top: 30%;
 #needssnck:hover{
     cursor: pointer ;
 }
+#bbbasket{
+    display: flex;
+    flex-direction: column;
 
-
-
-
-#price1{
-            margin-left: 75%;
+}
+.priceee{
           font-size: 30px;
           position: absolute;
-          top: 87%;
-}
+          top: 60%;
+          display: flex;
+          left: 82%;
+        }
+
 #bbbbbasket{
     color: white;
 position: absolute;
@@ -700,21 +722,21 @@ top: 25px;
     color: rgb(0, 0, 0);
     font-size: 28px;
     position: absolute;
-    left: 565px;
+    left: 400px;
     top: 25px;
     }
     #quaniti{
         color: rgb(0, 0, 0);
         font-size: 28px;
         position: absolute;
-        left: 725px;
+        left: 535px;
     top: 25px;
         }
         #removeee{
             color: rgb(0, 0, 0);
             font-size: 28px;
             position: absolute;
-            left: 970px;
+            left: 710px;
             top: 25px;
             }
 #Cate{
@@ -846,10 +868,10 @@ top: 700px;
 }
 
 #titllle{
-    background-color: #ffffff;
+    background-color: #f8f4f4;
     background-position:center;
     background-size: cover;
-    width: 83%;
+    width: 60%;
     height: 90px;
     position: absolute;
     top: 20%;
@@ -1836,6 +1858,41 @@ header{
 .product:hover {
     transform: scale(1.2);
 }
+
+
+
+
+
+.product1{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    width: 150px;
+    transition: all 0.5s;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.product1 img {
+    width: 100%;
+    margin-left: 250px;
+}
+.name1{
+    position: absolute;
+    margin-left: 500px;
+    width: 95px;
+}
+.price1{
+    margin-left: 75px;
+    position: absolute;
+    left: 435px;
+}
+
+#deitem{
+    position: absolute;
+    margin-left: 1520px;
+}
+
 
 .product img {
     width: 100%;
@@ -3463,8 +3520,9 @@ nav ul li span:nth-child(4) {
     cursor: pointer;    
     float: right;   
     position: absolute;
-    top: 87%;
-    left: 3%;
+    top: 75%;
+    left: 85%;
+
     width: 100px; 
   }    
 
