@@ -19,8 +19,9 @@ $(document).ready(function(){
   $("#feedbackkkk").hide();
   $("#bbbasket").hide();
   $("#cheeeckout").hide();
+  $("#massege").hide();
 
-
+  
   
   // $("#tobl11product").hide();
   // $("#tableproduct").hide();
@@ -355,10 +356,35 @@ $(document).ready(function(){
 
   });
   
-  
-  
+  $(".ordern").click(function(){
+//     if( "#country".val=== ""){
+//       $("ordern")
+// return
+//     }
+//     if( "#add".val=== ""){
+//       return
+//           }
+//           if( "#str".val=== ""){
+//             return
+//                 }
+//                 if( "#bunumber".val=== ""){
+//                   return
+//                       }
+//                       if( "#phnumber".val=== ""){
+//                         return
+//                             }
+    $("#cheeeckout").hide();
+    $("#massege").show();
 
+  });
+  $("#homeorder").click(function(){
+    
+    $("#massege").hide();
+    $("#main").show();
 
+  });
+
+  
 
 
 
@@ -1842,6 +1868,15 @@ const myCart = $("#bbbasket")
 
 
 
+  
+    function myMap() {
+    var mapProp= {
+      center:new google.maps.LatLng(31.9539,35.9106),
+      zoom:5,
+    };
+    var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+myMap()
 
 
 
