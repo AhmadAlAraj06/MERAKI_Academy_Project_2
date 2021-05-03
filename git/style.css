@@ -216,7 +216,7 @@ top: 10px;
 
 
 
-#basket{
+.basket{
     background-color: #9F0707;
     color: white;
 }
@@ -447,6 +447,28 @@ top: 10px;
     cursor: pointer ; 
 }
 */
+#needsbaskettt{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+}
+#needsbaskettt:hover{
+    cursor: pointer ; 
+}
+
+#needsfeedbackkkk{
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    left: 48px;
+    top: 12px;
+}
+#needsfeedbackkkk:hover{
+    cursor: pointer ; 
+}
+
 #needsfeedback{
     color: white;
     font-size: 28px;
@@ -602,7 +624,14 @@ top: 10px;
 
 
 
+#bbbbbasket{
+    color: white;
+position: absolute;
+top: 35px;
+        margin-left: 42%;
+      font-size: 30px;
 
+}
 
 
 
@@ -723,10 +752,16 @@ top: 35px;
     font-size: 20px;
 
 } */
+#hecont{
 
-
-
-
+background-color: #2b2727;
+background-position:center;
+background-size: cover;
+width: 100%;
+height: 150px;
+position:absolute;
+top: 700px;
+}
 header{
     background-color: #9F0707;
     background-position:center;
@@ -1381,11 +1416,204 @@ header{
 #basketii{
     color: white;
     font-size: 28px;
-    left: 140px;
-    top: 44px; 
+    left: 1235px;
+    top: 25px;
     position: absolute;
 }
 #basketii:hover{
+    cursor: pointer ;
+}
+#basketii1{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii1:hover{
+    cursor: pointer ;
+}
+#basketii2{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii2:hover{
+    cursor: pointer ;
+}
+#basketii3{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii3:hover{
+    cursor: pointer ;
+}
+#basketii4{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii4:hover{
+    cursor: pointer ;
+}
+#basketii5{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii5:hover{
+    cursor: pointer ;
+}
+#basketii6{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii6:hover{
+    cursor: pointer ;
+}
+#basketii7{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii7:hover{
+    cursor: pointer ;
+}
+#basketii8{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii8:hover{
+    cursor: pointer ;
+}
+#basketii9{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii9:hover{
+    cursor: pointer ;
+}
+#basketii10{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii10:hover{
+    cursor: pointer ;
+}
+#basketii11{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii11:hover{
+    cursor: pointer ;
+}
+#basketii12{
+    color: white;
+    font-size: 28px;
+    left: 1235px;
+    top: 25px;
+    position: absolute;
+}
+#basketii12:hover{
+    cursor: pointer ;
+}
+
+
+
+
+#folll{
+    color: rgb(100, 87, 87);
+    font-size: 28px;
+    left: 1055px;
+    top: 12px;
+    position: absolute; 
+}
+
+
+#facebook{
+    color: white;
+    font-size: 28px;
+    left: 1200px;
+    top: 60px;
+    position: absolute; 
+}
+#facebook:hover{
+    cursor: pointer ;
+}
+#twitter{
+    color: white;
+    font-size: 28px;
+    left: 1150px;
+    top: 60px;
+    position: absolute; 
+}
+#twitter:hover{
+    cursor: pointer ;
+}
+#insta{
+    color: white;
+    font-size: 28px;
+    left: 1100px;
+    top: 60px;
+    position: absolute; 
+}
+#insta:hover{
+    cursor: pointer ;
+}
+#linkden{
+    color: white;
+    font-size: 28px;
+    left: 1050px;
+    top: 60px;
+    position: absolute; 
+}
+#linkden:hover{
+    cursor: pointer ;
+}
+#youtube{
+    color: white;
+    font-size: 28px;
+    left: 1000px;
+    top: 60px;
+    position: absolute; 
+}
+#youtube:hover{
+    cursor: pointer ;
+}
+#opinion{
+    color: white;
+    font-size: 28px;
+    left: 400px;
+    top: 20px;
+    position: absolute; 
+}
+#opinion:hover{
     cursor: pointer ;
 }
 #feedbacki{
@@ -1394,8 +1622,8 @@ header{
     padding-left: 50px; */
     color: white;
     font-size: 28px;
-    left: 1200px;
-    /* top: 12px; */
+    left: 150px;
+    top: 20px;
     position: absolute;
 }
 #feedbacki:hover{
@@ -3107,13 +3335,10 @@ nav ul li span:nth-child(4) {
 
 
 
-
-
-
 * {    
     box-sizing: border-box;    
   }    
-      
+
   input[type=text], select, textarea {    
     width: 100%;    
     padding: 12px;    
@@ -3128,12 +3353,12 @@ nav ul li span:nth-child(4) {
     border-radius: 4px;    
     resize: vertical;    
   }    
-      
+
   label {    
     padding: 12px 12px 12px 0;    
     display: inline-block;    
   }    
-      
+
   input[type=submit] {    
     background-color:#9F0707;    
     color: white;    
@@ -3143,38 +3368,31 @@ nav ul li span:nth-child(4) {
     cursor: pointer;    
     float: right;    
   }    
-      
+
   input[type=submit]:hover {    
     background-color: #2e9133;    
   }    
-      
+
   .container {    
     border-radius: 5px;    
     background-color: #f2f2f2;    
     padding: 20px;    
   }    
-      
+
   .col-25 {    
     float: left;    
     width: 25%;    
     margin-top: 6px;    
   }    
-      
+
   .col-75 {    
     float: left;    
     width: 75%;    
     margin-top: 6px;    
   }    
-      
+
   .row:after {    
     content: "";    
     display: table;    
     clear: both;    
-  }    
-
-
-
-
-
-
-  
+  }   
