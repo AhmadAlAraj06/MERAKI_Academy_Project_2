@@ -1892,7 +1892,10 @@ header{
     position: absolute;
     margin-left: 1520px;
 }
-
+#quantt{
+    position: absolute;
+    margin-left: 1180px;
+}
 
 .product img {
     width: 100%;

@@ -1,5 +1,6 @@
 let price = 0;
 
+
 $(document).ready(function(){
   $("#prodoption").hide();
   $("#snackcandy").hide();
@@ -383,7 +384,22 @@ $(document).ready(function(){
 
   });
 
+  $("#fesubmit").click(function(){
+    
+    $("#feedbackkkk").hide();
+    $("#main").show();
+
+  });
+
   
+
+
+  
+
+
+
+
+
 
 
 
@@ -399,6 +415,11 @@ const myCart = $("#bbbasket")
    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
  </svg>
  </button>
+  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart.append(bbasket)
@@ -416,8 +437,15 @@ const myCart = $("#bbbasket")
    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
  </svg>
  </button>
+ <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
+
  </div>
  `)
+
  myCart1.append(bbasket)
   });
 
@@ -429,6 +457,14 @@ const myCart = $("#bbbasket")
    <img src="ritter123.jpg">
    <div class="name1">Ritter Sport Milk Chocolate </div>
    <div class="price1">JOD 1.50</div>
+   <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart2.append(bbasket)
@@ -443,6 +479,14 @@ const myCart = $("#bbbasket")
    <img src="nutella 12.jpg">
    <div class="name1">Nutella & Go</div>
    <div class="price1">JOD 0.90</div>
+   <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart3.append(bbasket)
@@ -458,6 +502,14 @@ const myCart = $("#bbbasket")
    <img src="no 1 12.jpg">
    <div class="name1">Turko No1 Wafer Hazelnut Chocolate </div>
    <div class="price1">JOD 0.25</div>
+   <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart4.append(bbasket)
@@ -473,6 +525,14 @@ const myCart = $("#bbbasket")
    <img src="nuttela bready.jpg">
    <div class="name1">Nutella  B-Ready</div>
    <div class="price1">JOD 0.99</div>
+   <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart5.append(bbasket)
@@ -488,6 +548,14 @@ const myCart = $("#bbbasket")
    <img src="rashen.jpg" >
    <div class="name1">Roshen Almond <br> Milk Chocolate</div>
 <div class="price1">JOD 0.99</div>
+<button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+<path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart6.append(bbasket)
@@ -500,7 +568,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="skittles12.jpg">
    <div class="name1">Skittles Candy Fruits</div>
-   <div class="price1">JOD 1.99</div>
+   <div class="price1">JOD 1.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart7.append(bbasket)
@@ -513,7 +588,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="bounty12.jpg">
    <div class="name1">Baunty Twin </div>
-   <div class="price1">JOD 1.99</div>
+   <div class="price1">JOD 1.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart8.append(bbasket)
@@ -527,7 +609,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="bubbly.jpeg">
    <div class="name1">Bubbly Chocolate </div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart9.append(bbasket)
@@ -540,7 +629,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
     <img src="m and m 123.jpg">
     <div class="name1">M&Ms Chocolate Pounch </div>
-    <div class="price1">JOD 0.40</div>
+    <div class="price1">JOD 0.40</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+  </svg>
+  </button> <div id="quantt">
+  <form action="/action_page.php">
+  <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+ </form>
+ </div>
  </div>
  `)
  myCart10.append(bbasket)
@@ -553,7 +649,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="cake a.jpg">
    <div class="name1">Americana Pound Cake</div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart11.append(bbasket)
@@ -566,7 +669,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="flake.jpg">
    <div class="name1">Flake Chocolate</div>
-   <div class="price1">JOD 0.29</div>
+   <div class="price1">JOD 0.29</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart12.append(bbasket)
@@ -580,7 +690,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="oreo.jpg">
    <div class="name1">Cadbury Dairy Milk Oreo </div>
-   <div class="price1">JOD 0.99</div>
+   <div class="price1">JOD 0.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart13.append(bbasket)
@@ -593,7 +710,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="wafe up.jpeg">
    <div class="name1">Eti Wafe Up Cacoa </div>
-   <div class="price1">JOD 0.29</div>
+   <div class="price1">JOD 0.29</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1"  name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart14.append(bbasket)
@@ -606,7 +730,14 @@ const myCart = $("#bbbasket")
    <div class="product1 mennn">
    <img src="mentos12.jpg">
    <div class="name1">Mentos Gum Pure Fresh</div>
-   <div class="price1">JOD 1.99</div>
+   <div class="price1">JOD 1.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart15.append(bbasket)
@@ -620,7 +751,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="merci.jpg">
    <div class="name1">Storck Merci </div>
-   <div class="price1">JOD 4.99</div>
+   <div class="price1">JOD 4.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart16.append(bbasket)
@@ -634,7 +772,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="oreo 2.jpg">
    <div class="name1">Oreo Original</div>
-   <div class="price1">JOD 0.29</div>
+   <div class="price1">JOD 0.29</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart17.append(bbasket)
@@ -647,7 +792,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="doritos 1.jpg">
    <div class="name1">Doritos Chips</div>
-   <div class="price1">JOD 0.29</div>
+   <div class="price1">JOD 0.29</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart18.append(bbasket)
@@ -661,7 +813,15 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="pringles12.jpg">
    <div class="name1">Pringles Chips</div>
-   <div class="price1">JOD 0.99</div>
+   <div class="price1">JOD 0.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
+</div>
  </div>
  `)
  myCart19.append(bbasket)
@@ -674,7 +834,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="stix 1.jpg">
    <div class="name1">Stix Chips </div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart20.append(bbasket)
@@ -688,7 +855,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="galaxy.jpg">
    <div class="name1">Galxy Chocolate </div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 1.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart21.append(bbasket)
@@ -701,7 +875,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="garden12.png">
    <div class="name1">Loaker Gardena Chocolate </div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart22.append(bbasket)
@@ -715,7 +896,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="harbio12.jpg">
    <div class="name1">Haribo Candy Goldbaren </div>
-   <div class="price1">JOD 1.49</div>
+   <div class="price1">JOD 1.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart23.append(bbasket)
@@ -728,7 +916,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="kinder kid.jpg">
    <div class="name1">Kinder Chocolate</div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart24.append(bbasket)
@@ -741,7 +936,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="kitkat.jpg">
    <div class="name1">Kitkat Chocolate</div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart25.append(bbasket)
@@ -754,7 +956,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="kinder bueno.jpg">
    <div class="name1">KindeBueno Chocolate</div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart26.append(bbasket)
@@ -767,7 +976,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="kinder joy12.jpg">
    <div class="name1">KindeJoy Chocolate </div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart27.append(bbasket)
@@ -781,7 +997,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="lays 1.jpg">
    <div class="name1">Lays Chips</div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart28.append(bbasket)
@@ -794,7 +1017,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="lindt.jpg">
    <div class="name1">Lindt Chocolate</div>
-   <div class="price1">JOD 1.49</div>
+   <div class="price1">JOD 1.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart29.append(bbasket)
@@ -807,7 +1037,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
     <img src="lion.jpg">
     <div class="name1">Lion Chocolate </div>
-    <div class="price1">JOD 0.49</div>
+    <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+    <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+  </svg>
+  </button>  <div id="quantt">
+  <form action="/action_page.php">
+  <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+ </form>
+ </div>
  </div>
  `)
  myCart30.append(bbasket)
@@ -821,7 +1058,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="loacker1.jpeg">
    <div class="name1">Loacker Napolaitaner </div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart31.append(bbasket)
@@ -835,7 +1079,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="capr12.jpg">
    <div class="name1">Caprice Classic</div>
-   <div class="price1">JOD 1.49</div>
+   <div class="price1">JOD 1.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart32.append(bbasket)
@@ -849,7 +1100,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mr ch.jpg">
    <div class="name1">Mr. Chips</div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart33.append(bbasket)
@@ -862,7 +1120,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="cheetos.jpg">
    <div class="name1">Cheetos Chips Crunchy Chili </div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart34.append(bbasket)
@@ -875,7 +1140,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mrdig.jpeg">
    <div class="name1">Mcvities Digestive Minis </div>
-   <div class="price1">JOD 1.49</div>
+   <div class="price1">JOD 1.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart35.append(bbasket)
@@ -889,7 +1161,14 @@ const myCart = $("#bbbasket")
    <div class="product1 poppp">
    <img src="pop corn12.jpg">
    <div class="name1">Americana Pop Corn</div>
-   <div class="price1">JOD OD 1.99</div>
+   <div class="price1">JOD OD 1.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart36.append(bbasket)
@@ -904,7 +1183,14 @@ const myCart = $("#bbbasket")
    <div class="product1 brrr">
    <img src="arabic bread.jpg">
    <div class="name1">Arabuc Bread</div>
-   <div class="price1">JOD 0.50</div>
+   <div class="price1">JOD 0.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart37.append(bbasket)
@@ -916,7 +1202,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="ramadanbread.jpg">
    <div class="name1">Ramadan Bread</div>
-   <div class="price1">JOD 0.50</div>
+   <div class="price1">JOD 0.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart38.append(bbasket)
@@ -928,7 +1221,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="burger1.jpg">
    <div class="name1">burger</div>
-   <div class="price1">JOD 0.40</div>
+   <div class="price1">JOD 0.40</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart39.append(bbasket)
@@ -941,7 +1241,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="qataif123.jpg">
    <div class="name1">qataif</div>
-   <div class="price1">JOD 0.60</div>
+   <div class="price1">JOD 0.60</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart40.append(bbasket)
@@ -953,7 +1260,14 @@ const myCart = $("#bbbasket")
    <div class="product1 tommm">
    <img src="tomato.jpg">
    <div class="name1">Tomato </div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>  <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart41.append(bbasket)
@@ -966,7 +1280,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="banana.jpg">
    <div class="name1">Banana</div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity" placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart42.append(bbasket)
@@ -978,7 +1299,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="strawb.jpg" >
    <div class="name1">Strawberry</div>
- <div class="price1">JOD 0.59</div>
+ <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart43.append(bbasket)
@@ -990,7 +1318,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="orange.jpg">
    <div class="name1">Orange</div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart44.append(bbasket)
@@ -1002,7 +1337,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="lemon.jpg">
    <div class="name1"> Lemon </div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart45.append(bbasket)
@@ -1014,7 +1356,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="radish.jpg">
    <div class="name1">Radish</div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart46.append(bbasket)
@@ -1026,7 +1375,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="onion.jpg" >
    <div class="name1">Onion</div>
- <div class="price1">JOD 0.59</div>
+ <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart47.append(bbasket)
@@ -1038,7 +1394,10 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="span.jpg">
    <div class="name1">Spanish</div>
-   <div class="price1">JOD 0.59</div>
+   <div class="price1">JOD 0.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button>
  </div>
  `)
  myCart48.append(bbasket)
@@ -1052,7 +1411,14 @@ const myCart = $("#bbbasket")
    <div class="product1 aaaaa">
    <img src="mur alaraj.jpg" >
    <div class="name1">Alaraj Beef</div>
- <div class="price1">JOD 14.99</div>
+ <div class="price1">JOD 14.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart49.append(bbasket)
@@ -1064,7 +1430,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="tul alaraj.jpg">
    <div class="name1">Toulkarem Alaraj</div>
-   <div class="price1">JOD 11.99</div>
+   <div class="price1">JOD 11.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart50.append(bbasket)
@@ -1076,7 +1449,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="jawhara.jpg">
    <div class="name1"> Jawharat Toulkarem </div>
-   <div class="price1">JOD 8.99</div>
+   <div class="price1">JOD 8.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart51.append(bbasket)
@@ -1088,7 +1468,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="jawhara1.jpg">
    <div class="name1">Jawharat Toulkarem</div>
-   <div class="price1">JOD 5.99</div>
+   <div class="price1">JOD 5.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart52.append(bbasket)
@@ -1100,7 +1487,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="tamam chicken.jpg" >
    <div class="name1">amam Chicken Whole Leg</div>
- <div class="price1">JOD 1.59</div>
+ <div class="price1">JOD 1.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart53.append(bbasket)
@@ -1112,7 +1506,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
       <img src="tamam fillet.jpg">
       <div class="name1">Tamam Chicken Filet</div>
-      <div class="price1">JOD 3.49</div>
+      <div class="price1">JOD 3.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+      <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+    </svg>
+    </button> <div id="quantt">
+    <form action="/action_page.php">
+    <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+   </form>
+   </div>
  </div>
  `)
  myCart54.append(bbasket)
@@ -1126,7 +1527,14 @@ const myCart = $("#bbbasket")
    <div class="product1 egggg">
       <img src="eggsoval.jpg">
       <div class="name1"> Eggs  </div>
-      <div class="price1">JOD 1.59</div>
+      <div class="price1">JOD 1.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+      <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+    </svg>
+    </button> <div id="quantt">
+    <form action="/action_page.php">
+    <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+   </form>
+   </div>
  </div>
  `)
  myCart55.append(bbasket)
@@ -1138,7 +1546,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="eggsalmawa.jpg">
    <div class="name1">Eggs </div>
-   <div class="price1">JOD 1.59</div>
+   <div class="price1">JOD 1.59</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart56.append(bbasket)
@@ -1150,7 +1565,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="hamodehsh.jpg" >
    <div class="name1">Hamodeh Shanenah</div>
- <div class="price1">JOD 0.49</div>
+ <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart57.append(bbasket)
@@ -1162,7 +1584,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="haritnash.jpg">
    <div class="name1">Haritna Shanenah</div>
-   <div class="price1">JOD 0.49</div>
+   <div class="price1">JOD 0.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart58.append(bbasket)
@@ -1174,7 +1603,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="youghartmrai.jpg">
    <div class="name1"> Al Marai  Youghurt</div>
-   <div class="price1">JOD 0.75</div>
+   <div class="price1">JOD 0.75</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart59.append(bbasket)
@@ -1186,7 +1622,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="youghartmrai1.jpg_480Wx480H">
    <div class="name1"> Al Marai  Youghurt </div>
-   <div class="price1">JOD 0.99</div>
+   <div class="price1">JOD 0.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart60.append(bbasket)
@@ -1198,7 +1641,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="youghartmrai2.jpeg" >
    <div class="name1"> Al Marai  Youghurt</div>
- <div class="price1">JOD 0.99</div>
+ <div class="price1">JOD 0.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart61.append(bbasket)
@@ -1210,7 +1660,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="labaneh.jpg">
    <div class="name1">Labaneh  </div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart62.append(bbasket)
@@ -1222,7 +1679,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="labaneh1.jpg">
    <div class="name1"> Labaneh  </div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart63.append(bbasket)
@@ -1234,7 +1698,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="abu alwalad.jpg">
    <div class="name1">Abu AlWalad </div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart64.append(bbasket)
@@ -1246,7 +1717,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="abu alwalad1.jpg" >
    <div class="name1">Abu AlWalad</div>
- <div class="price1">JOD 1.49</div>
+ <div class="price1">JOD 1.49</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+ <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg>
+</button> <div id="quantt">
+<form action="/action_page.php">
+<input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart65.append(bbasket)
@@ -1258,7 +1736,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="almraicheese.jpg">
    <div class="name1">l Marai  Cheese</div>
-   <div class="price1">JOD 1.99</div>
+   <div class="price1">JOD 1.99</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart66.append(bbasket)
@@ -1272,7 +1757,14 @@ const myCart = $("#bbbasket")
    <div class="product1 alammama">
    <img src="almarai milk.jpg">
    <div class="name1"> Al Marai Milk</div>
-   <div class="price1">JOD 3.00</div>
+   <div class="price1">JOD 3.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart67.append(bbasket)
@@ -1284,7 +1776,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="almarai milk 1.jpg">
    <div class="name1">Nadec Milc</div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart68.append(bbasket)
@@ -1296,7 +1795,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="hamodeh milk.jpg">
    <div class="name1">Hamodeh Milk </div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart69.append(bbasket)
@@ -1308,7 +1814,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="nadec milk.jpg">
    <div class="name1">Al Marai milk</div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart70.append(bbasket)
@@ -1320,7 +1833,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="almarai powder milk 2.jpg">
    <div class="name1">Almarai Powder Milk</div>
-   <div class="price1">JOD 5.00</div>
+   <div class="price1">JOD 5.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart71.append(bbasket)
@@ -1331,8 +1851,15 @@ const myCart = $("#bbbasket")
    const bbasket = $(`
    <div class="product1">
    <img src="nido.jpg">
-   <div class="name1">Toblerone Milk </div>
-   <div class="price1">JOD 5.00</div>
+   <div class="name1">nido Milk </div>
+   <div class="price1">JOD 5.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart72.append(bbasket)
@@ -1344,7 +1871,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="almarai chocolate.jpg">
    <div class="name1">Al Marai Chocolate Milk</div>
-   <div class="price1">JOD 0.50</div>
+   <div class="price1">JOD 0.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart73.append(bbasket)
@@ -1356,7 +1890,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="almarai mango.jpg">
    <div class="name1">Al Marai Chocolate Milk</div>
-   <div class="price1">JOD 0.50</div>
+   <div class="price1">JOD 0.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart74.append(bbasket)
@@ -1370,7 +1911,16 @@ const myCart = $("#bbbasket")
    <div class="product1 bbbbbbb">
    <img src="beef burger12.jpeg">
    <div class="name1"> Beef Burger</div>
-   <div class="price1">JOD 2.50</div>
+   <div class="price1">JOD 2.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button> <div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
+</div>
+
  `)
  myCart75.append(bbasket)
   });
@@ -1381,7 +1931,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="chicken burger.jpg">
    <div class="name1">Chicken Burger </div>
-   <div class="price1">JOD 2.50</div>
+   <div class="price1">JOD 2.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart76.append(bbasket)
@@ -1393,7 +1950,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="zinger.jpg">
    <div class="name1">Zinger </div>
-   <div class="price1">JOD 3.00</div>
+   <div class="price1">JOD 3.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart77.append(bbasket)
@@ -1405,7 +1969,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="zinger spicy.jpg">
    <div class="name1">Zinger Spicy</div>
-   <div class="price1">JOD 3.00</div>
+   <div class="price1">JOD 3.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart78.append(bbasket)
@@ -1417,7 +1988,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="cordnblue.jpg">
    <div class="name1">Cordn Blue</div>
-   <div class="price1">JOD 4.00</div>
+   <div class="price1">JOD 4.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart79.append(bbasket)
@@ -1429,7 +2007,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="french fries.jpg">
    <div class="name1">French Fries </div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart80.append(bbasket)
@@ -1441,7 +2026,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="widges12.jpg">
    <div class="name1">Widges</div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart81.append(bbasket)
@@ -1455,7 +2047,14 @@ const myCart = $("#bbbasket")
    <div class="product1 ccccccc">
    <img src="corn flex.jpeg">
    <div class="name1">  Corn Flex</div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart82.append(bbasket)
@@ -1467,7 +2066,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="corn flex 122.jpg">
    <div class="name1">Corn Flex  </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart83.append(bbasket)
@@ -1479,7 +2085,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="corn flex2.jpg">
    <div class="name1">Corn Flex </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart84.append(bbasket)
@@ -1491,7 +2104,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="corn flex3.jpg">
    <div class="name1">Corn Flex </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart85.append(bbasket)
@@ -1503,7 +2123,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="nestle1.jpg">
    <div class="name1">Fitness Cereal Bar With Chocolate  </div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart86.append(bbasket)
@@ -1515,7 +2142,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="honey.png">
    <div class="name1">Original Honey</div>
-   <div class="price1">JOD 6.00</div>
+   <div class="price1">JOD 6.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart87.append(bbasket)
@@ -1527,7 +2161,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="halawa.jpg">
    <div class="name1">Durra Halawa</div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart88.append(bbasket)
@@ -1540,7 +2181,14 @@ const myCart = $("#bbbasket")
    <div class="product1 cofffff">
    <img src="davidoff.jpg">
    <div class="name1">  Davidoff Espresso 57 </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart89.append(bbasket)
@@ -1552,7 +2200,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="nescafe1.jpg">
    <div class="name1">Nescafe</div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart90.append(bbasket)
@@ -1564,7 +2219,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="marouf.jpg">
    <div class="name1">Marouf Coffee  </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart91.append(bbasket)
@@ -1576,7 +2238,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="marouf1.jpg">
    <div class="name1">Marouf Coffee  </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart92.append(bbasket)
@@ -1588,7 +2257,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="ahmadte.jpg">
    <div class="name1">Ahmad Tea </div>
-   <div class="price1">JOD 3.00</div>
+   <div class="price1">JOD 3.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart93.append(bbasket)
@@ -1600,7 +2276,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="lipton.jpg">
    <div class="name1">Lipton Tea </div>
-   <div class="price1">JOD 3.00</div>
+   <div class="price1">JOD 3.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart94.append(bbasket)
@@ -1612,7 +2295,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="karakte.jpg">
    <div class="name1">Karak Tea</div>
-   <div class="price1">JOD 2.50</div>
+   <div class="price1">JOD 2.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart95.append(bbasket)
@@ -1627,7 +2317,14 @@ const myCart = $("#bbbasket")
    <div class="product1 mmmmmm">
    <img src="mangum sea salt.jpg">
    <div class="name1"> Mangum Sea Salt Caramel </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart96.append(bbasket)
@@ -1639,7 +2336,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum7.jpg">
    <div class="name1"> Mangum White Chocolate &  Cookies   </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart97.append(bbasket)
@@ -1651,7 +2355,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum6.jpg">
    <div class="name1">Corn Mangum Double Caramel </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart98.append(bbasket)
@@ -1663,7 +2374,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum milk.webp">
    <div class="name1"> Mangum Milk Chocolate Vanillia </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart99.append(bbasket)
@@ -1675,7 +2393,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum2.jpg">
    <div class="name1">Mangum Double Chocolate & Strawberry  </div>
-   <div class="price"1>JOD 1.50</div>
+   <div class="price"1>JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart100.append(bbasket)
@@ -1687,7 +2412,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum3.jpg">
    <div class="name1"> Mangum Double Mochaccino</div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart101.append(bbasket)
@@ -1699,7 +2431,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum4.jpg">
    <div class="name1"> Mangum Double Chocolate</div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart102.append(bbasket)
@@ -1711,7 +2450,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="mangum8.jpg">
    <div class="name1">  Mangum Classic </div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart103.append(bbasket)
@@ -1727,7 +2473,14 @@ const myCart = $("#bbbasket")
    <div class="product1 tangggggg">
    <img src="tang11.jpg">
    <div class="name1">Tang Juice</div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart104.append(bbasket)
@@ -1739,7 +2492,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="vimto12.jpg">
    <div class="name1"> Vimto </div>
-   <div class="price1">JOD 3.50</div>
+   <div class="price1">JOD 3.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart105.append(bbasket)
@@ -1751,7 +2511,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="cococola12.jpg">
    <div class="name1">Cococola</div>
-   <div class="price1">JOD 0.25</div>
+   <div class="price1">JOD 0.25</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart106.append(bbasket)
@@ -1763,7 +2530,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="pepsi2222.jpg">
    <div class="name1"> Pepsi </div>
-   <div class="price1">JOD 0.60</div>
+   <div class="price1">JOD 0.60</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart107.append(bbasket)
@@ -1775,7 +2549,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="pepsi11.jpg">
    <div class="name1">Pepsi </div>
-   <div class="price1">JOD 0.30</div>
+   <div class="price1">JOD 0.30</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart108.append(bbasket)
@@ -1787,7 +2568,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="freez.jpg">
    <div class="name1"> Freez Juice</div>
-   <div class="price1">JOD 0.70</div>
+   <div class="price1">JOD 0.70</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart109.append(bbasket)
@@ -1799,7 +2587,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="redbul111.jpg">
    <div class="name1">Redbul Energy Drink</div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart110.append(bbasket)
@@ -1811,7 +2606,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="monster.jpg">
    <div class="name1">Monester Energy Drink </div>
-   <div class="price1">JOD 1.00</div>
+   <div class="price1">JOD 1.00</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart111.append(bbasket)
@@ -1825,7 +2627,14 @@ const myCart = $("#bbbasket")
    <div class="product1 wwwwwwwwwater">
    <img src="water1.jpg">
    <div class="name1">Nestle Water </div>
-   <div class="price1">JOD 0.50</div>
+   <div class="price1">JOD 0.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart112.append(bbasket)
@@ -1838,7 +2647,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="arwa water.jpeg">
    <div class="name1"> Arwa Water </div>
-   <div class="price1">JOD 0.25</div>
+   <div class="price1">JOD 0.25</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart113.append(bbasket)
@@ -1851,7 +2667,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="water3.jpg">
    <div class="name1">Ultra Water</div>
-   <div class="price1">JOD 0.25</div>
+   <div class="price1">JOD 0.25</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart114.append(bbasket)
@@ -1864,7 +2687,14 @@ const myCart = $("#bbbasket")
    <div class="product1">
    <img src="water 2.jpg">
    <div class="name1"> Nestle Water </div>
-   <div class="price1">JOD 1.50</div>
+   <div class="price1">JOD 1.50</div>  <button id="deitem"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+   <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+ </svg>
+ </button><div id="quantt">
+ <form action="/action_page.php">
+ <input type="number" id="quantity"  placeholder="1" name="quantity" min="1" max="100">
+</form>
+</div>
  </div>
  `)
  myCart115.append(bbasket)
